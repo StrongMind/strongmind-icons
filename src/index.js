@@ -1,6 +1,7 @@
 export IconBase from './IconBase.js';
 export IconAddLine from './Line/IconAddLine.js';
 export IconAddressBookLine from './Line/IconAddressBookLine.js';
+export IconAlertLine from './Line/IconAlertLine.js';
 export IconAnalyticsLine from './Line/IconAnalyticsLine.js';
 export IconAndroidLine from './Line/IconAndroidLine.js';
 export IconAnnouncementLine from './Line/IconAnnouncementLine.js';
@@ -212,6 +213,7 @@ export IconZoomInLine from './Line/IconZoomInLine.js';
 export IconZoomOutLine from './Line/IconZoomOutLine.js';
 export IconAddressBookSolid from './Solid/IconAddressBookSolid.js';
 export IconAddSolid from './Solid/IconAddSolid.js';
+export IconAlertSolid from './Solid/IconAlertSolid.js';
 export IconAnalyticsSolid from './Solid/IconAnalyticsSolid.js';
 export IconAndroidSolid from './Solid/IconAndroidSolid.js';
 export IconAnnouncementSolid from './Solid/IconAnnouncementSolid.js';

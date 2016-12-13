@@ -1,5 +1,6 @@
 export IconAddLine from './IconAddLine.js';
 export IconAddressBookLine from './IconAddressBookLine.js';
+export IconAlertLine from './IconAlertLine.js';
 export IconAnalyticsLine from './IconAnalyticsLine.js';
 export IconAndroidLine from './IconAndroidLine.js';
 export IconAnnouncementLine from './IconAnnouncementLine.js';

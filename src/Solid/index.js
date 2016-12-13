@@ -1,5 +1,6 @@
 export IconAddressBookSolid from './IconAddressBookSolid.js';
 export IconAddSolid from './IconAddSolid.js';
+export IconAlertSolid from './IconAlertSolid.js';
 export IconAnalyticsSolid from './IconAnalyticsSolid.js';
 export IconAndroidSolid from './IconAndroidSolid.js';
 export IconAnnouncementSolid from './IconAnnouncementSolid.js';

@@ -202,7 +202,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      delete props.desc;
 
 	      var style = {
-	        fill: 'currentColor'
+	        fill: 'currentColor',
+	        width: width,
+	        height: height
 	      };
 
 	      return _react2.default.createElement(

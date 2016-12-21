@@ -54,7 +54,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(224);
+	module.exports = __webpack_require__(227);
 
 
 /***/ },
@@ -8235,6 +8235,63 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+	var IconOutcomesSolid = function (_Component) {
+	  _inherits(IconOutcomesSolid, _Component);
+
+	  function IconOutcomesSolid() {
+	    _classCallCheck(this, IconOutcomesSolid);
+
+	    return _possibleConstructorReturn(this, (IconOutcomesSolid.__proto__ || Object.getPrototypeOf(IconOutcomesSolid)).apply(this, arguments));
+	  }
+
+	  _createClass(IconOutcomesSolid, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        _IconBase2.default,
+	        _extends({}, this.props, {
+	          name: 'IconOutcomesSolid',
+	          viewBox: '0 0 1920 1920' }),
+	        _react2.default.createElement('path', { d: 'M783.95 1057.053c0 44.077 35.757 79.994 79.994 79.994 44.236 0 79.993-35.917 79.993-79.994 0-44.237-35.757-79.994-79.993-79.994-44.237 0-79.994 35.757-79.994 79.994zM1777 257.112L1663.889 144l-336.534 336.535-223.422-223.423V817.07h559.956l-223.423-223.424L1777 257.112zm-1153.038 799.94c0-132.31 107.672-239.981 239.982-239.981V657.082c-220.543 0-399.97 179.427-399.97 399.97 0 220.545 179.427 399.972 399.97 399.972 220.542 0 399.968-179.427 399.968-399.971h-159.987c0 132.31-107.672 239.982-239.981 239.982-132.31 0-239.982-107.672-239.982-239.982zm239.982 559.96c-308.776 0-559.957-251.182-559.957-559.96 0-308.776 251.18-559.958 559.957-559.958V337.106C467.014 337.106 144 660.042 144 1057.053 144 1454.063 467.015 1777 863.944 1777c396.928 0 719.943-322.936 719.943-719.947H1423.9c0 308.777-251.18 559.959-559.956 559.959z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
+	      );
+	    }
+	  }]);
+
+	  return IconOutcomesSolid;
+	}(_react.Component);
+
+	exports.default = IconOutcomesSolid;
+
+/***/ },
+/* 145 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _IconBase = __webpack_require__(3);
+
+	var _IconBase2 = _interopRequireDefault(_IconBase);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 	var IconOutdent2Solid = function (_Component) {
 	  _inherits(IconOutdent2Solid, _Component);
 
@@ -8267,7 +8324,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconOutdent2Solid;
 
 /***/ },
-/* 145 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8328,7 +8385,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconOutdentSolid;
 
 /***/ },
-/* 146 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8385,7 +8442,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPaintSolid;
 
 /***/ },
-/* 147 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8442,7 +8499,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPaperclipSolid;
 
 /***/ },
-/* 148 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8504,7 +8561,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPartialSolid;
 
 /***/ },
-/* 149 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8561,7 +8618,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPdfSolid;
 
 /***/ },
-/* 150 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8622,7 +8679,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPeerGradedSolid;
 
 /***/ },
-/* 151 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8683,7 +8740,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPeerReviewSolid;
 
 /***/ },
-/* 152 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8740,7 +8797,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPinSolid;
 
 /***/ },
-/* 153 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8797,7 +8854,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPinterestSolid;
 
 /***/ },
-/* 154 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8854,7 +8911,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPlusSolid;
 
 /***/ },
-/* 155 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8911,7 +8968,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPostToSisSolid;
 
 /***/ },
-/* 156 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8968,7 +9025,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPrerequisiteSolid;
 
 /***/ },
-/* 157 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9025,7 +9082,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPrinterSolid;
 
 /***/ },
-/* 158 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9082,7 +9139,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconPublishSolid;
 
 /***/ },
-/* 159 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9139,7 +9196,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconQuestionSolid;
 
 /***/ },
-/* 160 */
+/* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9201,7 +9258,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconQuizSolid;
 
 /***/ },
-/* 161 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9263,7 +9320,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconQuizStatsAvgSolid;
 
 /***/ },
-/* 162 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9325,7 +9382,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconQuizStatsDeviationSolid;
 
 /***/ },
-/* 163 */
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9387,7 +9444,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconQuizStatsHighSolid;
 
 /***/ },
-/* 164 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9449,7 +9506,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconQuizStatsLowSolid;
 
 /***/ },
-/* 165 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9511,7 +9568,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconQuizStatsTimeSolid;
 
 /***/ },
-/* 166 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9568,7 +9625,64 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconRefreshSolid;
 
 /***/ },
-/* 167 */
+/* 168 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _IconBase = __webpack_require__(3);
+
+	var _IconBase2 = _interopRequireDefault(_IconBase);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var IconRemoveBookmarkSolid = function (_Component) {
+	  _inherits(IconRemoveBookmarkSolid, _Component);
+
+	  function IconRemoveBookmarkSolid() {
+	    _classCallCheck(this, IconRemoveBookmarkSolid);
+
+	    return _possibleConstructorReturn(this, (IconRemoveBookmarkSolid.__proto__ || Object.getPrototypeOf(IconRemoveBookmarkSolid)).apply(this, arguments));
+	  }
+
+	  _createClass(IconRemoveBookmarkSolid, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        _IconBase2.default,
+	        _extends({}, this.props, {
+	          name: 'IconRemoveBookmarkSolid',
+	          viewBox: '0 0 1920 1920' }),
+	        _react2.default.createElement('path', { d: 'M1520 720h-320V480c0-88.24 71.76-160 160-160s160 71.76 160 160v240zm-160-560H560c-176.48 0-320 143.52-320 320v1200c0 32.32 19.52 61.52 49.36 73.92 29.92 12.32 64.32 5.44 87.2-17.36L720 1393.12l343.44 343.44A80.027 80.027 0 0 0 1120 1760c10.32 0 20.72-2 30.64-6.08 29.84-12.4 49.36-41.6 49.36-73.92V880h400c44.16 0 80-35.84 80-80V480c0-176.48-143.52-320-320-320zm-338.4 512.51L909.09 560 710.8 758.355 512.51 560 400 672.51 598.355 870.8 400 1069.09l112.51 112.51L710.8 983.31l198.29 198.29 112.51-112.51L823.31 870.8l198.29-198.29z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
+	      );
+	    }
+	  }]);
+
+	  return IconRemoveBookmarkSolid;
+	}(_react.Component);
+
+	exports.default = IconRemoveBookmarkSolid;
+
+/***/ },
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9625,7 +9739,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconRemoveFromCollectionSolid;
 
 /***/ },
-/* 168 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9682,7 +9796,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconRepliedSolid;
 
 /***/ },
-/* 169 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9739,7 +9853,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconReply2Solid;
 
 /***/ },
-/* 170 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9796,7 +9910,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconReplyAll2Solid;
 
 /***/ },
-/* 171 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9853,7 +9967,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconReplySolid;
 
 /***/ },
-/* 172 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9910,7 +10024,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconResetSolid;
 
 /***/ },
-/* 173 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9967,7 +10081,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconRssAddSolid;
 
 /***/ },
-/* 174 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10024,7 +10138,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconRssSolid;
 
 /***/ },
-/* 175 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10070,7 +10184,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        _extends({}, this.props, {
 	          name: 'IconRubricDarkSolid',
 	          viewBox: '0 0 1920 1920' }),
-	        _react2.default.createElement('path', { d: 'M800 480h960V320H800v160zm0 560h960V880H800v160zm0 560h960v-160H800v160zM560 160H240c-44.16 0-80 35.84-80 80v320c0 44.16 35.84 80 80 80h320c44.24 0 80-35.84 80-80V240c0-44.16-35.76-80-80-80zm0 560H240c-44.16 0-80 35.84-80 80v320c0 44.16 35.84 80 80 80h320c44.24 0 80-35.84 80-80V800c0-44.16-35.76-80-80-80zm0 560H240c-44.16 0-80 35.84-80 80v320c0 44.16 35.84 80 80 80h320c44.24 0 80-35.84 80-80v-320c0-44.16-35.76-80-80-80z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
+	        _react2.default.createElement('path', { d: 'M720.008 759.976h-320v320.007h320V759.976zm-320 800.017h320v-320.007h-320v320.007zM1360 1074.543v645.454H240V599.972h580.96C807.76 548.852 800 495.33 800 439.97H80V1880h1440v-805.458c-26.24 3.28-52.88 5.44-80 5.44-27.12 0-53.76-2.16-80-5.44zm-159.992 165.443h-320v320.007h320v-320.007zM1840 382.887h-342.88L1360 40l-137.2 342.887H880l296.64 250.406-159.52 366.728L1360 773.296l342.8 226.725-159.44-366.728L1840 382.887z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
 	      );
 	    }
 	  }]);
@@ -10081,7 +10195,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconRubricDarkSolid;
 
 /***/ },
-/* 176 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10127,7 +10241,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        _extends({}, this.props, {
 	          name: 'IconRubricSolid',
 	          viewBox: '0 0 1920 1920' }),
-	        _react2.default.createElement('path', { d: 'M800 480h960V320H800v160zm0 560h960V880H800v160zm0 560h960v-160H800v160zM560 160H240c-44.16 0-80 35.84-80 80v320c0 44.16 35.84 80 80 80h320c44.24 0 80-35.84 80-80V240c0-44.16-35.76-80-80-80zm0 560H240c-44.16 0-80 35.84-80 80v320c0 44.16 35.84 80 80 80h320c44.24 0 80-35.84 80-80V800c0-44.16-35.76-80-80-80zm0 560H240c-44.16 0-80 35.84-80 80v320c0 44.16 35.84 80 80 80h320c44.24 0 80-35.84 80-80v-320c0-44.16-35.76-80-80-80z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
+	        _react2.default.createElement('path', { d: 'M720.008 759.976h-320v320.007h320V759.976zm-320 800.017h320v-320.007h-320v320.007zM1360 1074.543v645.454H240V599.972h580.96C807.76 548.852 800 495.33 800 439.97H80V1880h1440v-805.458c-26.24 3.28-52.88 5.44-80 5.44-27.12 0-53.76-2.16-80-5.44zm-159.992 165.443h-320v320.007h320v-320.007zM1840 382.887h-342.88L1360 40l-137.2 342.887H880l296.64 250.406-159.52 366.728L1360 773.296l342.8 226.725-159.44-366.728L1840 382.887z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
 	      );
 	    }
 	  }]);
@@ -10138,7 +10252,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconRubricSolid;
 
 /***/ },
-/* 177 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10195,7 +10309,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconSearchAddressBookSolid;
 
 /***/ },
-/* 178 */
+/* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10252,7 +10366,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconSearchSolid;
 
 /***/ },
-/* 179 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10309,7 +10423,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconSettings2Solid;
 
 /***/ },
-/* 180 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10366,7 +10480,64 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconSettingsSolid;
 
 /***/ },
-/* 181 */
+/* 183 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _IconBase = __webpack_require__(3);
+
+	var _IconBase2 = _interopRequireDefault(_IconBase);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var IconSisImportedSolid = function (_Component) {
+	  _inherits(IconSisImportedSolid, _Component);
+
+	  function IconSisImportedSolid() {
+	    _classCallCheck(this, IconSisImportedSolid);
+
+	    return _possibleConstructorReturn(this, (IconSisImportedSolid.__proto__ || Object.getPrototypeOf(IconSisImportedSolid)).apply(this, arguments));
+	  }
+
+	  _createClass(IconSisImportedSolid, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        _IconBase2.default,
+	        _extends({}, this.props, {
+	          name: 'IconSisImportedSolid',
+	          viewBox: '0 0 1920 1920' }),
+	        _react2.default.createElement('path', { d: 'M190 859.98h658.438L719.17 730.68l141.365-141.4 370.608 370.7-370.608 370.7-141.365-141.4 129.268-129.3H190v-200zm317.102 524.22C620.474 1497.5 771.137 1560 931.297 1560c160.16 0 310.824-62.4 423.996-175.8 113.372-113.4 175.756-264.1 175.756-424.3 0-160.3-62.384-310.9-175.756-424.2C1242.12 422.3 1091.458 360 931.297 360c-160.16 0-310.823 62.4-424.195 175.7L365.737 394.3C516.799 243.1 717.75 160 931.297 160c213.648 0 414.398 83.2 565.36 234.3C1647.822 545.3 1731 746.2 1731 959.9c0 213.6-83.18 414.6-234.242 565.7-151.063 151.1-351.813 234.4-565.46 234.4-213.548 0-414.499-83.3-565.561-234.4l141.365-141.4z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
+	      );
+	    }
+	  }]);
+
+	  return IconSisImportedSolid;
+	}(_react.Component);
+
+	exports.default = IconSisImportedSolid;
+
+/***/ },
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10423,7 +10594,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconSisNotSyncedSolid;
 
 /***/ },
-/* 182 */
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10480,7 +10651,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconSisSyncedSolid;
 
 /***/ },
-/* 183 */
+/* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10537,7 +10708,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconSkypeSolid;
 
 /***/ },
-/* 184 */
+/* 187 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10594,7 +10765,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconSpeedGraderSolid;
 
 /***/ },
-/* 185 */
+/* 188 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10651,7 +10822,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconStandardsSolid;
 
 /***/ },
-/* 186 */
+/* 189 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10708,7 +10879,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconStarLightSolid;
 
 /***/ },
-/* 187 */
+/* 190 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10765,7 +10936,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconStarSolid;
 
 /***/ },
-/* 188 */
+/* 191 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10822,7 +10993,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconStatsSolid;
 
 /***/ },
-/* 189 */
+/* 192 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10879,7 +11050,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconStrikethroughSolid;
 
 /***/ },
-/* 190 */
+/* 193 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10936,7 +11107,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconStudentViewSolid;
 
 /***/ },
-/* 191 */
+/* 194 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -10993,7 +11164,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconSyllabusSolid;
 
 /***/ },
-/* 192 */
+/* 195 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11054,7 +11225,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTableSolid;
 
 /***/ },
-/* 193 */
+/* 196 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11111,7 +11282,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTagSolid;
 
 /***/ },
-/* 194 */
+/* 197 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11168,7 +11339,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTargetSolid;
 
 /***/ },
-/* 195 */
+/* 198 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11225,7 +11396,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTextCenteredSolid;
 
 /***/ },
-/* 196 */
+/* 199 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11282,7 +11453,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTextLeftSolid;
 
 /***/ },
-/* 197 */
+/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11339,7 +11510,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTextRightSolid;
 
 /***/ },
-/* 198 */
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11396,7 +11567,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTextSolid;
 
 /***/ },
-/* 199 */
+/* 202 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11459,7 +11630,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTextareaSolid;
 
 /***/ },
-/* 200 */
+/* 203 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11516,7 +11687,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTimerSolid;
 
 /***/ },
-/* 201 */
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11573,7 +11744,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconToggleLeftSolid;
 
 /***/ },
-/* 202 */
+/* 205 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11630,7 +11801,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconToggleRightSolid;
 
 /***/ },
-/* 203 */
+/* 206 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11691,7 +11862,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTrashSolid;
 
 /***/ },
-/* 204 */
+/* 207 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11748,7 +11919,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTroubleSolid;
 
 /***/ },
-/* 205 */
+/* 208 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11805,7 +11976,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTwitterBoxedSolid;
 
 /***/ },
-/* 206 */
+/* 209 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11862,7 +12033,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconTwitterSolid;
 
 /***/ },
-/* 207 */
+/* 210 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11919,7 +12090,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconUnknown2Solid;
 
 /***/ },
-/* 208 */
+/* 211 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11976,7 +12147,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconUnlockSolid;
 
 /***/ },
-/* 209 */
+/* 212 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12033,7 +12204,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconUnmutedSolid;
 
 /***/ },
-/* 210 */
+/* 213 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12090,7 +12261,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconUnpublishSolid;
 
 /***/ },
-/* 211 */
+/* 214 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12147,7 +12318,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconUnpublishedSolid;
 
 /***/ },
-/* 212 */
+/* 215 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12204,7 +12375,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconUpdownSolid;
 
 /***/ },
-/* 213 */
+/* 216 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12261,7 +12432,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconUploadSolid;
 
 /***/ },
-/* 214 */
+/* 217 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12318,7 +12489,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconUserAddSolid;
 
 /***/ },
-/* 215 */
+/* 218 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12375,7 +12546,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconUserSolid;
 
 /***/ },
-/* 216 */
+/* 219 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12432,7 +12603,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconVideoSolid;
 
 /***/ },
-/* 217 */
+/* 220 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12489,7 +12660,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconWarningSolid;
 
 /***/ },
-/* 218 */
+/* 221 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12546,7 +12717,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconWindowsSolid;
 
 /***/ },
-/* 219 */
+/* 222 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12603,7 +12774,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconWordpressSolid;
 
 /***/ },
-/* 220 */
+/* 223 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12660,7 +12831,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconXSolid;
 
 /***/ },
-/* 221 */
+/* 224 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12717,7 +12888,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconZippedSolid;
 
 /***/ },
-/* 222 */
+/* 225 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12774,7 +12945,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconZoomInSolid;
 
 /***/ },
-/* 223 */
+/* 226 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12831,7 +13002,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = IconZoomOutSolid;
 
 /***/ },
-/* 224 */
+/* 227 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12839,7 +13010,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.IconZoomOutSolid = exports.IconZoomInSolid = exports.IconZippedSolid = exports.IconXSolid = exports.IconWordpressSolid = exports.IconWindowsSolid = exports.IconWarningSolid = exports.IconVideoSolid = exports.IconUserSolid = exports.IconUserAddSolid = exports.IconUploadSolid = exports.IconUpdownSolid = exports.IconUnpublishSolid = exports.IconUnpublishedSolid = exports.IconUnmutedSolid = exports.IconUnlockSolid = exports.IconUnknown2Solid = exports.IconTwitterSolid = exports.IconTwitterBoxedSolid = exports.IconTroubleSolid = exports.IconTrashSolid = exports.IconToggleRightSolid = exports.IconToggleLeftSolid = exports.IconTimerSolid = exports.IconTextSolid = exports.IconTextRightSolid = exports.IconTextLeftSolid = exports.IconTextCenteredSolid = exports.IconTextareaSolid = exports.IconTargetSolid = exports.IconTagSolid = exports.IconTableSolid = exports.IconSyllabusSolid = exports.IconStudentViewSolid = exports.IconStrikethroughSolid = exports.IconStatsSolid = exports.IconStarSolid = exports.IconStarLightSolid = exports.IconStandardsSolid = exports.IconSpeedGraderSolid = exports.IconSkypeSolid = exports.IconSisSyncedSolid = exports.IconSisNotSyncedSolid = exports.IconSettingsSolid = exports.IconSettings2Solid = exports.IconSearchSolid = exports.IconSearchAddressBookSolid = exports.IconRubricSolid = exports.IconRubricDarkSolid = exports.IconRssSolid = exports.IconRssAddSolid = exports.IconResetSolid = exports.IconReplySolid = exports.IconReplyAll2Solid = exports.IconReply2Solid = exports.IconRepliedSolid = exports.IconRemoveFromCollectionSolid = exports.IconRefreshSolid = exports.IconQuizStatsTimeSolid = exports.IconQuizStatsLowSolid = exports.IconQuizStatsHighSolid = exports.IconQuizStatsDeviationSolid = exports.IconQuizStatsAvgSolid = exports.IconQuizSolid = exports.IconQuestionSolid = exports.IconPublishSolid = exports.IconPrinterSolid = exports.IconPrerequisiteSolid = exports.IconPostToSisSolid = exports.IconPlusSolid = exports.IconPinterestSolid = exports.IconPinSolid = exports.IconPeerReviewSolid = exports.IconPeerGradedSolid = exports.IconPdfSolid = exports.IconPartialSolid = exports.IconPaperclipSolid = exports.IconPaintSolid = exports.IconOutdentSolid = exports.IconOutdent2Solid = exports.IconOffSolid = exports.IconNotGradedSolid = exports.IconNoteLightSolid = exports.IconNoteDarkSolid = exports.IconNextUnreadSolid = exports.IconMutedSolid = exports.IconMsWordSolid = exports.IconMsPptSolid = exports.IconMsExcelSolid = exports.IconMoveUpTopSolid = exports.IconMoveUpSolid = exports.IconMoveDownSolid = exports.IconMoveDownBottomSolid = exports.IconMoreSolid = exports.IconModuleSolid = exports.IconMinimizeSolid = exports.IconMiniArrowUpSolid = exports.IconMiniArrowRightSolid = exports.IconMiniArrowLeftSolid = exports.IconMiniArrowDownSolid = exports.IconMessageSolid = exports.IconMediaSolid = exports.IconMatureSolid = exports.IconMatureLightSolid = exports.IconMaterialsRequiredSolid = exports.IconMaterialsRequiredLightSolid = exports.IconMasteryPathSolid = exports.IconMasqueradeSolid = exports.IconMarkerSolid = exports.IconMarkAsReadSolid = exports.IconLtiSolid = exports.IconLockSolid = exports.IconLinkSolid = exports.IconLinkedinSolid = exports.IconLikeSolid = exports.IconKeyboardShortcutsSolid = exports.IconInvitationSolid = exports.IconIntegrationsSolid = exports.IconInstructureSolid = exports.IconInfoSolid = exports.IconIndentSolid = exports.IconIndent2Solid = exports.IconImportSolid = exports.IconImportContentSolid = exports.IconImageSolid = exports.IconHourGlassSolid = exports.IconHomeSolid = exports.IconHighlighterSolid = exports.IconHeartSolid = exports.IconHamburgerSolid = exports.IconGroupSolid = exports.IconGroupNewSolid = exports.IconGroupDarkNewSolid = exports.IconGradebookSolid = exports.IconGradebookImportSolid = exports.IconGradebookExportSolid = exports.IconGithubSolid = exports.IconForwardSolid = exports.IconFolderSolid = exports.IconFolderLockedSolid = exports.IconFlagSolid = exports.IconFilmstripSolid = exports.IconFilesPublicDomainSolid = exports.IconFilesObtainedPermissionSolid = exports.IconFilesFairUseSolid = exports.IconFilesCreativeCommonsSolid = exports.IconFilesCopyrightSolid = exports.IconFacebookSolid = exports.IconFacebookBoxedSolid = exports.IconEyeSolid = exports.IconExportSolid = exports.IconExportContentSolid = exports.IconExpandSolid = exports.IconExpandItemsSolid = exports.IconEquellaSolid = exports.IconEquationSolid = exports.IconEndSolid = exports.IconEmptySolid = exports.IconEmailSolid = exports.IconEducatorsSolid = exports.IconEditSolid = exports.IconDropDownSolid = exports.IconDragHandleSolid = exports.IconDownloadSolid = exports.IconDocumentSolid = exports.IconDiscussionXSolid = exports.IconDiscussionSolid = exports.IconDiscussionSearchSolid = exports.IconDiscussionReplySolid = exports.IconDiscussionReplyDarkSolid = exports.IconDiscussionReply2Solid = exports.IconDiscussionNewSolid = exports.IconDiscussionCheckSolid = exports.IconCoursesSolid = exports.IconCopySolid = exports.IconCopyCourseSolid = exports.IconComposeSolid = exports.IconCompleteSolid = exports.IconCommonsSolid = exports.IconCollectionSolid = exports.IconCollectionSaveSolid = exports.IconCollapseSolid = exports.IconCloudLockSolid = exports.IconClockSolid = exports.IconCheckSolid = exports.IconCheckPlusSolid = exports.IconCheckMarkSolid = exports.IconCheckDarkSolid = exports.IconCalendarReservedSolid = exports.IconCalendarMonthSolid = exports.IconCalendarDaysSolid = exports.IconCalendarDaySolid = exports.IconCalendarAddSolid = exports.IconBoxSolid = exports.IconBookmarkSolid = exports.IconAudioSolid = exports.IconAssignmentSolid = exports.IconArrowUpSolid = exports.IconArrowRightSolid = exports.IconArrowOpenUpSolid = exports.IconArrowOpenRightSolid = exports.IconArrowOpenLeftSolid = exports.IconArrowOpenDownSolid = exports.IconArrowLeftSolid = exports.IconArrowDownSolid = exports.IconAppleSolid = exports.IconAnnouncementSolid = exports.IconAndroidSolid = exports.IconAnalyticsSolid = exports.IconAlertSolid = exports.IconAddSolid = exports.IconAddressBookSolid = undefined;
+	exports.IconZoomOutSolid = exports.IconZoomInSolid = exports.IconZippedSolid = exports.IconXSolid = exports.IconWordpressSolid = exports.IconWindowsSolid = exports.IconWarningSolid = exports.IconVideoSolid = exports.IconUserSolid = exports.IconUserAddSolid = exports.IconUploadSolid = exports.IconUpdownSolid = exports.IconUnpublishSolid = exports.IconUnpublishedSolid = exports.IconUnmutedSolid = exports.IconUnlockSolid = exports.IconUnknown2Solid = exports.IconTwitterSolid = exports.IconTwitterBoxedSolid = exports.IconTroubleSolid = exports.IconTrashSolid = exports.IconToggleRightSolid = exports.IconToggleLeftSolid = exports.IconTimerSolid = exports.IconTextSolid = exports.IconTextRightSolid = exports.IconTextLeftSolid = exports.IconTextCenteredSolid = exports.IconTextareaSolid = exports.IconTargetSolid = exports.IconTagSolid = exports.IconTableSolid = exports.IconSyllabusSolid = exports.IconStudentViewSolid = exports.IconStrikethroughSolid = exports.IconStatsSolid = exports.IconStarSolid = exports.IconStarLightSolid = exports.IconStandardsSolid = exports.IconSpeedGraderSolid = exports.IconSkypeSolid = exports.IconSisSyncedSolid = exports.IconSisNotSyncedSolid = exports.IconSisImportedSolid = exports.IconSettingsSolid = exports.IconSettings2Solid = exports.IconSearchSolid = exports.IconSearchAddressBookSolid = exports.IconRubricSolid = exports.IconRubricDarkSolid = exports.IconRssSolid = exports.IconRssAddSolid = exports.IconResetSolid = exports.IconReplySolid = exports.IconReplyAll2Solid = exports.IconReply2Solid = exports.IconRepliedSolid = exports.IconRemoveFromCollectionSolid = exports.IconRemoveBookmarkSolid = exports.IconRefreshSolid = exports.IconQuizStatsTimeSolid = exports.IconQuizStatsLowSolid = exports.IconQuizStatsHighSolid = exports.IconQuizStatsDeviationSolid = exports.IconQuizStatsAvgSolid = exports.IconQuizSolid = exports.IconQuestionSolid = exports.IconPublishSolid = exports.IconPrinterSolid = exports.IconPrerequisiteSolid = exports.IconPostToSisSolid = exports.IconPlusSolid = exports.IconPinterestSolid = exports.IconPinSolid = exports.IconPeerReviewSolid = exports.IconPeerGradedSolid = exports.IconPdfSolid = exports.IconPartialSolid = exports.IconPaperclipSolid = exports.IconPaintSolid = exports.IconOutdentSolid = exports.IconOutdent2Solid = exports.IconOutcomesSolid = exports.IconOffSolid = exports.IconNotGradedSolid = exports.IconNoteLightSolid = exports.IconNoteDarkSolid = exports.IconNextUnreadSolid = exports.IconMutedSolid = exports.IconMsWordSolid = exports.IconMsPptSolid = exports.IconMsExcelSolid = exports.IconMoveUpTopSolid = exports.IconMoveUpSolid = exports.IconMoveDownSolid = exports.IconMoveDownBottomSolid = exports.IconMoreSolid = exports.IconModuleSolid = exports.IconMinimizeSolid = exports.IconMiniArrowUpSolid = exports.IconMiniArrowRightSolid = exports.IconMiniArrowLeftSolid = exports.IconMiniArrowDownSolid = exports.IconMessageSolid = exports.IconMediaSolid = exports.IconMatureSolid = exports.IconMatureLightSolid = exports.IconMaterialsRequiredSolid = exports.IconMaterialsRequiredLightSolid = exports.IconMasteryPathSolid = exports.IconMasqueradeSolid = exports.IconMarkerSolid = exports.IconMarkAsReadSolid = exports.IconLtiSolid = exports.IconLockSolid = exports.IconLinkSolid = exports.IconLinkedinSolid = exports.IconLikeSolid = exports.IconKeyboardShortcutsSolid = exports.IconInvitationSolid = exports.IconIntegrationsSolid = exports.IconInstructureSolid = exports.IconInfoSolid = exports.IconIndentSolid = exports.IconIndent2Solid = exports.IconImportSolid = exports.IconImportContentSolid = exports.IconImageSolid = exports.IconHourGlassSolid = exports.IconHomeSolid = exports.IconHighlighterSolid = exports.IconHeartSolid = exports.IconHamburgerSolid = exports.IconGroupSolid = exports.IconGroupNewSolid = exports.IconGroupDarkNewSolid = exports.IconGradebookSolid = exports.IconGradebookImportSolid = exports.IconGradebookExportSolid = exports.IconGithubSolid = exports.IconForwardSolid = exports.IconFolderSolid = exports.IconFolderLockedSolid = exports.IconFlagSolid = exports.IconFilmstripSolid = exports.IconFilesPublicDomainSolid = exports.IconFilesObtainedPermissionSolid = exports.IconFilesFairUseSolid = exports.IconFilesCreativeCommonsSolid = exports.IconFilesCopyrightSolid = exports.IconFacebookSolid = exports.IconFacebookBoxedSolid = exports.IconEyeSolid = exports.IconExportSolid = exports.IconExportContentSolid = exports.IconExpandSolid = exports.IconExpandItemsSolid = exports.IconEquellaSolid = exports.IconEquationSolid = exports.IconEndSolid = exports.IconEmptySolid = exports.IconEmailSolid = exports.IconEducatorsSolid = exports.IconEditSolid = exports.IconDropDownSolid = exports.IconDragHandleSolid = exports.IconDownloadSolid = exports.IconDocumentSolid = exports.IconDiscussionXSolid = exports.IconDiscussionSolid = exports.IconDiscussionSearchSolid = exports.IconDiscussionReplySolid = exports.IconDiscussionReplyDarkSolid = exports.IconDiscussionReply2Solid = exports.IconDiscussionNewSolid = exports.IconDiscussionCheckSolid = exports.IconCoursesSolid = exports.IconCopySolid = exports.IconCopyCourseSolid = exports.IconComposeSolid = exports.IconCompleteSolid = exports.IconCommonsSolid = exports.IconCollectionSolid = exports.IconCollectionSaveSolid = exports.IconCollapseSolid = exports.IconCloudLockSolid = exports.IconClockSolid = exports.IconCheckSolid = exports.IconCheckPlusSolid = exports.IconCheckMarkSolid = exports.IconCheckDarkSolid = exports.IconCalendarReservedSolid = exports.IconCalendarMonthSolid = exports.IconCalendarDaysSolid = exports.IconCalendarDaySolid = exports.IconCalendarAddSolid = exports.IconBoxSolid = exports.IconBookmarkSolid = exports.IconAudioSolid = exports.IconAssignmentSolid = exports.IconArrowUpSolid = exports.IconArrowRightSolid = exports.IconArrowOpenUpSolid = exports.IconArrowOpenRightSolid = exports.IconArrowOpenLeftSolid = exports.IconArrowOpenDownSolid = exports.IconArrowLeftSolid = exports.IconArrowDownSolid = exports.IconAppleSolid = exports.IconAnnouncementSolid = exports.IconAndroidSolid = exports.IconAnalyticsSolid = exports.IconAlertSolid = exports.IconAddSolid = exports.IconAddressBookSolid = undefined;
 
 	var _IconAddressBookSolid2 = __webpack_require__(13);
 
@@ -13369,323 +13540,335 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _IconOffSolid3 = _interopRequireDefault(_IconOffSolid2);
 
-	var _IconOutdent2Solid2 = __webpack_require__(144);
+	var _IconOutcomesSolid2 = __webpack_require__(144);
+
+	var _IconOutcomesSolid3 = _interopRequireDefault(_IconOutcomesSolid2);
+
+	var _IconOutdent2Solid2 = __webpack_require__(145);
 
 	var _IconOutdent2Solid3 = _interopRequireDefault(_IconOutdent2Solid2);
 
-	var _IconOutdentSolid2 = __webpack_require__(145);
+	var _IconOutdentSolid2 = __webpack_require__(146);
 
 	var _IconOutdentSolid3 = _interopRequireDefault(_IconOutdentSolid2);
 
-	var _IconPaintSolid2 = __webpack_require__(146);
+	var _IconPaintSolid2 = __webpack_require__(147);
 
 	var _IconPaintSolid3 = _interopRequireDefault(_IconPaintSolid2);
 
-	var _IconPaperclipSolid2 = __webpack_require__(147);
+	var _IconPaperclipSolid2 = __webpack_require__(148);
 
 	var _IconPaperclipSolid3 = _interopRequireDefault(_IconPaperclipSolid2);
 
-	var _IconPartialSolid2 = __webpack_require__(148);
+	var _IconPartialSolid2 = __webpack_require__(149);
 
 	var _IconPartialSolid3 = _interopRequireDefault(_IconPartialSolid2);
 
-	var _IconPdfSolid2 = __webpack_require__(149);
+	var _IconPdfSolid2 = __webpack_require__(150);
 
 	var _IconPdfSolid3 = _interopRequireDefault(_IconPdfSolid2);
 
-	var _IconPeerGradedSolid2 = __webpack_require__(150);
+	var _IconPeerGradedSolid2 = __webpack_require__(151);
 
 	var _IconPeerGradedSolid3 = _interopRequireDefault(_IconPeerGradedSolid2);
 
-	var _IconPeerReviewSolid2 = __webpack_require__(151);
+	var _IconPeerReviewSolid2 = __webpack_require__(152);
 
 	var _IconPeerReviewSolid3 = _interopRequireDefault(_IconPeerReviewSolid2);
 
-	var _IconPinSolid2 = __webpack_require__(152);
+	var _IconPinSolid2 = __webpack_require__(153);
 
 	var _IconPinSolid3 = _interopRequireDefault(_IconPinSolid2);
 
-	var _IconPinterestSolid2 = __webpack_require__(153);
+	var _IconPinterestSolid2 = __webpack_require__(154);
 
 	var _IconPinterestSolid3 = _interopRequireDefault(_IconPinterestSolid2);
 
-	var _IconPlusSolid2 = __webpack_require__(154);
+	var _IconPlusSolid2 = __webpack_require__(155);
 
 	var _IconPlusSolid3 = _interopRequireDefault(_IconPlusSolid2);
 
-	var _IconPostToSisSolid2 = __webpack_require__(155);
+	var _IconPostToSisSolid2 = __webpack_require__(156);
 
 	var _IconPostToSisSolid3 = _interopRequireDefault(_IconPostToSisSolid2);
 
-	var _IconPrerequisiteSolid2 = __webpack_require__(156);
+	var _IconPrerequisiteSolid2 = __webpack_require__(157);
 
 	var _IconPrerequisiteSolid3 = _interopRequireDefault(_IconPrerequisiteSolid2);
 
-	var _IconPrinterSolid2 = __webpack_require__(157);
+	var _IconPrinterSolid2 = __webpack_require__(158);
 
 	var _IconPrinterSolid3 = _interopRequireDefault(_IconPrinterSolid2);
 
-	var _IconPublishSolid2 = __webpack_require__(158);
+	var _IconPublishSolid2 = __webpack_require__(159);
 
 	var _IconPublishSolid3 = _interopRequireDefault(_IconPublishSolid2);
 
-	var _IconQuestionSolid2 = __webpack_require__(159);
+	var _IconQuestionSolid2 = __webpack_require__(160);
 
 	var _IconQuestionSolid3 = _interopRequireDefault(_IconQuestionSolid2);
 
-	var _IconQuizSolid2 = __webpack_require__(160);
+	var _IconQuizSolid2 = __webpack_require__(161);
 
 	var _IconQuizSolid3 = _interopRequireDefault(_IconQuizSolid2);
 
-	var _IconQuizStatsAvgSolid2 = __webpack_require__(161);
+	var _IconQuizStatsAvgSolid2 = __webpack_require__(162);
 
 	var _IconQuizStatsAvgSolid3 = _interopRequireDefault(_IconQuizStatsAvgSolid2);
 
-	var _IconQuizStatsDeviationSolid2 = __webpack_require__(162);
+	var _IconQuizStatsDeviationSolid2 = __webpack_require__(163);
 
 	var _IconQuizStatsDeviationSolid3 = _interopRequireDefault(_IconQuizStatsDeviationSolid2);
 
-	var _IconQuizStatsHighSolid2 = __webpack_require__(163);
+	var _IconQuizStatsHighSolid2 = __webpack_require__(164);
 
 	var _IconQuizStatsHighSolid3 = _interopRequireDefault(_IconQuizStatsHighSolid2);
 
-	var _IconQuizStatsLowSolid2 = __webpack_require__(164);
+	var _IconQuizStatsLowSolid2 = __webpack_require__(165);
 
 	var _IconQuizStatsLowSolid3 = _interopRequireDefault(_IconQuizStatsLowSolid2);
 
-	var _IconQuizStatsTimeSolid2 = __webpack_require__(165);
+	var _IconQuizStatsTimeSolid2 = __webpack_require__(166);
 
 	var _IconQuizStatsTimeSolid3 = _interopRequireDefault(_IconQuizStatsTimeSolid2);
 
-	var _IconRefreshSolid2 = __webpack_require__(166);
+	var _IconRefreshSolid2 = __webpack_require__(167);
 
 	var _IconRefreshSolid3 = _interopRequireDefault(_IconRefreshSolid2);
 
-	var _IconRemoveFromCollectionSolid2 = __webpack_require__(167);
+	var _IconRemoveBookmarkSolid2 = __webpack_require__(168);
+
+	var _IconRemoveBookmarkSolid3 = _interopRequireDefault(_IconRemoveBookmarkSolid2);
+
+	var _IconRemoveFromCollectionSolid2 = __webpack_require__(169);
 
 	var _IconRemoveFromCollectionSolid3 = _interopRequireDefault(_IconRemoveFromCollectionSolid2);
 
-	var _IconRepliedSolid2 = __webpack_require__(168);
+	var _IconRepliedSolid2 = __webpack_require__(170);
 
 	var _IconRepliedSolid3 = _interopRequireDefault(_IconRepliedSolid2);
 
-	var _IconReply2Solid2 = __webpack_require__(169);
+	var _IconReply2Solid2 = __webpack_require__(171);
 
 	var _IconReply2Solid3 = _interopRequireDefault(_IconReply2Solid2);
 
-	var _IconReplyAll2Solid2 = __webpack_require__(170);
+	var _IconReplyAll2Solid2 = __webpack_require__(172);
 
 	var _IconReplyAll2Solid3 = _interopRequireDefault(_IconReplyAll2Solid2);
 
-	var _IconReplySolid2 = __webpack_require__(171);
+	var _IconReplySolid2 = __webpack_require__(173);
 
 	var _IconReplySolid3 = _interopRequireDefault(_IconReplySolid2);
 
-	var _IconResetSolid2 = __webpack_require__(172);
+	var _IconResetSolid2 = __webpack_require__(174);
 
 	var _IconResetSolid3 = _interopRequireDefault(_IconResetSolid2);
 
-	var _IconRssAddSolid2 = __webpack_require__(173);
+	var _IconRssAddSolid2 = __webpack_require__(175);
 
 	var _IconRssAddSolid3 = _interopRequireDefault(_IconRssAddSolid2);
 
-	var _IconRssSolid2 = __webpack_require__(174);
+	var _IconRssSolid2 = __webpack_require__(176);
 
 	var _IconRssSolid3 = _interopRequireDefault(_IconRssSolid2);
 
-	var _IconRubricDarkSolid2 = __webpack_require__(175);
+	var _IconRubricDarkSolid2 = __webpack_require__(177);
 
 	var _IconRubricDarkSolid3 = _interopRequireDefault(_IconRubricDarkSolid2);
 
-	var _IconRubricSolid2 = __webpack_require__(176);
+	var _IconRubricSolid2 = __webpack_require__(178);
 
 	var _IconRubricSolid3 = _interopRequireDefault(_IconRubricSolid2);
 
-	var _IconSearchAddressBookSolid2 = __webpack_require__(177);
+	var _IconSearchAddressBookSolid2 = __webpack_require__(179);
 
 	var _IconSearchAddressBookSolid3 = _interopRequireDefault(_IconSearchAddressBookSolid2);
 
-	var _IconSearchSolid2 = __webpack_require__(178);
+	var _IconSearchSolid2 = __webpack_require__(180);
 
 	var _IconSearchSolid3 = _interopRequireDefault(_IconSearchSolid2);
 
-	var _IconSettings2Solid2 = __webpack_require__(179);
+	var _IconSettings2Solid2 = __webpack_require__(181);
 
 	var _IconSettings2Solid3 = _interopRequireDefault(_IconSettings2Solid2);
 
-	var _IconSettingsSolid2 = __webpack_require__(180);
+	var _IconSettingsSolid2 = __webpack_require__(182);
 
 	var _IconSettingsSolid3 = _interopRequireDefault(_IconSettingsSolid2);
 
-	var _IconSisNotSyncedSolid2 = __webpack_require__(181);
+	var _IconSisImportedSolid2 = __webpack_require__(183);
+
+	var _IconSisImportedSolid3 = _interopRequireDefault(_IconSisImportedSolid2);
+
+	var _IconSisNotSyncedSolid2 = __webpack_require__(184);
 
 	var _IconSisNotSyncedSolid3 = _interopRequireDefault(_IconSisNotSyncedSolid2);
 
-	var _IconSisSyncedSolid2 = __webpack_require__(182);
+	var _IconSisSyncedSolid2 = __webpack_require__(185);
 
 	var _IconSisSyncedSolid3 = _interopRequireDefault(_IconSisSyncedSolid2);
 
-	var _IconSkypeSolid2 = __webpack_require__(183);
+	var _IconSkypeSolid2 = __webpack_require__(186);
 
 	var _IconSkypeSolid3 = _interopRequireDefault(_IconSkypeSolid2);
 
-	var _IconSpeedGraderSolid2 = __webpack_require__(184);
+	var _IconSpeedGraderSolid2 = __webpack_require__(187);
 
 	var _IconSpeedGraderSolid3 = _interopRequireDefault(_IconSpeedGraderSolid2);
 
-	var _IconStandardsSolid2 = __webpack_require__(185);
+	var _IconStandardsSolid2 = __webpack_require__(188);
 
 	var _IconStandardsSolid3 = _interopRequireDefault(_IconStandardsSolid2);
 
-	var _IconStarLightSolid2 = __webpack_require__(186);
+	var _IconStarLightSolid2 = __webpack_require__(189);
 
 	var _IconStarLightSolid3 = _interopRequireDefault(_IconStarLightSolid2);
 
-	var _IconStarSolid2 = __webpack_require__(187);
+	var _IconStarSolid2 = __webpack_require__(190);
 
 	var _IconStarSolid3 = _interopRequireDefault(_IconStarSolid2);
 
-	var _IconStatsSolid2 = __webpack_require__(188);
+	var _IconStatsSolid2 = __webpack_require__(191);
 
 	var _IconStatsSolid3 = _interopRequireDefault(_IconStatsSolid2);
 
-	var _IconStrikethroughSolid2 = __webpack_require__(189);
+	var _IconStrikethroughSolid2 = __webpack_require__(192);
 
 	var _IconStrikethroughSolid3 = _interopRequireDefault(_IconStrikethroughSolid2);
 
-	var _IconStudentViewSolid2 = __webpack_require__(190);
+	var _IconStudentViewSolid2 = __webpack_require__(193);
 
 	var _IconStudentViewSolid3 = _interopRequireDefault(_IconStudentViewSolid2);
 
-	var _IconSyllabusSolid2 = __webpack_require__(191);
+	var _IconSyllabusSolid2 = __webpack_require__(194);
 
 	var _IconSyllabusSolid3 = _interopRequireDefault(_IconSyllabusSolid2);
 
-	var _IconTableSolid2 = __webpack_require__(192);
+	var _IconTableSolid2 = __webpack_require__(195);
 
 	var _IconTableSolid3 = _interopRequireDefault(_IconTableSolid2);
 
-	var _IconTagSolid2 = __webpack_require__(193);
+	var _IconTagSolid2 = __webpack_require__(196);
 
 	var _IconTagSolid3 = _interopRequireDefault(_IconTagSolid2);
 
-	var _IconTargetSolid2 = __webpack_require__(194);
+	var _IconTargetSolid2 = __webpack_require__(197);
 
 	var _IconTargetSolid3 = _interopRequireDefault(_IconTargetSolid2);
 
-	var _IconTextareaSolid2 = __webpack_require__(199);
+	var _IconTextareaSolid2 = __webpack_require__(202);
 
 	var _IconTextareaSolid3 = _interopRequireDefault(_IconTextareaSolid2);
 
-	var _IconTextCenteredSolid2 = __webpack_require__(195);
+	var _IconTextCenteredSolid2 = __webpack_require__(198);
 
 	var _IconTextCenteredSolid3 = _interopRequireDefault(_IconTextCenteredSolid2);
 
-	var _IconTextLeftSolid2 = __webpack_require__(196);
+	var _IconTextLeftSolid2 = __webpack_require__(199);
 
 	var _IconTextLeftSolid3 = _interopRequireDefault(_IconTextLeftSolid2);
 
-	var _IconTextRightSolid2 = __webpack_require__(197);
+	var _IconTextRightSolid2 = __webpack_require__(200);
 
 	var _IconTextRightSolid3 = _interopRequireDefault(_IconTextRightSolid2);
 
-	var _IconTextSolid2 = __webpack_require__(198);
+	var _IconTextSolid2 = __webpack_require__(201);
 
 	var _IconTextSolid3 = _interopRequireDefault(_IconTextSolid2);
 
-	var _IconTimerSolid2 = __webpack_require__(200);
+	var _IconTimerSolid2 = __webpack_require__(203);
 
 	var _IconTimerSolid3 = _interopRequireDefault(_IconTimerSolid2);
 
-	var _IconToggleLeftSolid2 = __webpack_require__(201);
+	var _IconToggleLeftSolid2 = __webpack_require__(204);
 
 	var _IconToggleLeftSolid3 = _interopRequireDefault(_IconToggleLeftSolid2);
 
-	var _IconToggleRightSolid2 = __webpack_require__(202);
+	var _IconToggleRightSolid2 = __webpack_require__(205);
 
 	var _IconToggleRightSolid3 = _interopRequireDefault(_IconToggleRightSolid2);
 
-	var _IconTrashSolid2 = __webpack_require__(203);
+	var _IconTrashSolid2 = __webpack_require__(206);
 
 	var _IconTrashSolid3 = _interopRequireDefault(_IconTrashSolid2);
 
-	var _IconTroubleSolid2 = __webpack_require__(204);
+	var _IconTroubleSolid2 = __webpack_require__(207);
 
 	var _IconTroubleSolid3 = _interopRequireDefault(_IconTroubleSolid2);
 
-	var _IconTwitterBoxedSolid2 = __webpack_require__(205);
+	var _IconTwitterBoxedSolid2 = __webpack_require__(208);
 
 	var _IconTwitterBoxedSolid3 = _interopRequireDefault(_IconTwitterBoxedSolid2);
 
-	var _IconTwitterSolid2 = __webpack_require__(206);
+	var _IconTwitterSolid2 = __webpack_require__(209);
 
 	var _IconTwitterSolid3 = _interopRequireDefault(_IconTwitterSolid2);
 
-	var _IconUnknown2Solid2 = __webpack_require__(207);
+	var _IconUnknown2Solid2 = __webpack_require__(210);
 
 	var _IconUnknown2Solid3 = _interopRequireDefault(_IconUnknown2Solid2);
 
-	var _IconUnlockSolid2 = __webpack_require__(208);
+	var _IconUnlockSolid2 = __webpack_require__(211);
 
 	var _IconUnlockSolid3 = _interopRequireDefault(_IconUnlockSolid2);
 
-	var _IconUnmutedSolid2 = __webpack_require__(209);
+	var _IconUnmutedSolid2 = __webpack_require__(212);
 
 	var _IconUnmutedSolid3 = _interopRequireDefault(_IconUnmutedSolid2);
 
-	var _IconUnpublishedSolid2 = __webpack_require__(211);
+	var _IconUnpublishedSolid2 = __webpack_require__(214);
 
 	var _IconUnpublishedSolid3 = _interopRequireDefault(_IconUnpublishedSolid2);
 
-	var _IconUnpublishSolid2 = __webpack_require__(210);
+	var _IconUnpublishSolid2 = __webpack_require__(213);
 
 	var _IconUnpublishSolid3 = _interopRequireDefault(_IconUnpublishSolid2);
 
-	var _IconUpdownSolid2 = __webpack_require__(212);
+	var _IconUpdownSolid2 = __webpack_require__(215);
 
 	var _IconUpdownSolid3 = _interopRequireDefault(_IconUpdownSolid2);
 
-	var _IconUploadSolid2 = __webpack_require__(213);
+	var _IconUploadSolid2 = __webpack_require__(216);
 
 	var _IconUploadSolid3 = _interopRequireDefault(_IconUploadSolid2);
 
-	var _IconUserAddSolid2 = __webpack_require__(214);
+	var _IconUserAddSolid2 = __webpack_require__(217);
 
 	var _IconUserAddSolid3 = _interopRequireDefault(_IconUserAddSolid2);
 
-	var _IconUserSolid2 = __webpack_require__(215);
+	var _IconUserSolid2 = __webpack_require__(218);
 
 	var _IconUserSolid3 = _interopRequireDefault(_IconUserSolid2);
 
-	var _IconVideoSolid2 = __webpack_require__(216);
+	var _IconVideoSolid2 = __webpack_require__(219);
 
 	var _IconVideoSolid3 = _interopRequireDefault(_IconVideoSolid2);
 
-	var _IconWarningSolid2 = __webpack_require__(217);
+	var _IconWarningSolid2 = __webpack_require__(220);
 
 	var _IconWarningSolid3 = _interopRequireDefault(_IconWarningSolid2);
 
-	var _IconWindowsSolid2 = __webpack_require__(218);
+	var _IconWindowsSolid2 = __webpack_require__(221);
 
 	var _IconWindowsSolid3 = _interopRequireDefault(_IconWindowsSolid2);
 
-	var _IconWordpressSolid2 = __webpack_require__(219);
+	var _IconWordpressSolid2 = __webpack_require__(222);
 
 	var _IconWordpressSolid3 = _interopRequireDefault(_IconWordpressSolid2);
 
-	var _IconXSolid2 = __webpack_require__(220);
+	var _IconXSolid2 = __webpack_require__(223);
 
 	var _IconXSolid3 = _interopRequireDefault(_IconXSolid2);
 
-	var _IconZippedSolid2 = __webpack_require__(221);
+	var _IconZippedSolid2 = __webpack_require__(224);
 
 	var _IconZippedSolid3 = _interopRequireDefault(_IconZippedSolid2);
 
-	var _IconZoomInSolid2 = __webpack_require__(222);
+	var _IconZoomInSolid2 = __webpack_require__(225);
 
 	var _IconZoomInSolid3 = _interopRequireDefault(_IconZoomInSolid2);
 
-	var _IconZoomOutSolid2 = __webpack_require__(223);
+	var _IconZoomOutSolid2 = __webpack_require__(226);
 
 	var _IconZoomOutSolid3 = _interopRequireDefault(_IconZoomOutSolid2);
 
@@ -13823,6 +14006,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.IconNoteLightSolid = _IconNoteLightSolid3.default;
 	exports.IconNotGradedSolid = _IconNotGradedSolid3.default;
 	exports.IconOffSolid = _IconOffSolid3.default;
+	exports.IconOutcomesSolid = _IconOutcomesSolid3.default;
 	exports.IconOutdent2Solid = _IconOutdent2Solid3.default;
 	exports.IconOutdentSolid = _IconOutdentSolid3.default;
 	exports.IconPaintSolid = _IconPaintSolid3.default;
@@ -13846,6 +14030,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.IconQuizStatsLowSolid = _IconQuizStatsLowSolid3.default;
 	exports.IconQuizStatsTimeSolid = _IconQuizStatsTimeSolid3.default;
 	exports.IconRefreshSolid = _IconRefreshSolid3.default;
+	exports.IconRemoveBookmarkSolid = _IconRemoveBookmarkSolid3.default;
 	exports.IconRemoveFromCollectionSolid = _IconRemoveFromCollectionSolid3.default;
 	exports.IconRepliedSolid = _IconRepliedSolid3.default;
 	exports.IconReply2Solid = _IconReply2Solid3.default;
@@ -13860,6 +14045,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.IconSearchSolid = _IconSearchSolid3.default;
 	exports.IconSettings2Solid = _IconSettings2Solid3.default;
 	exports.IconSettingsSolid = _IconSettingsSolid3.default;
+	exports.IconSisImportedSolid = _IconSisImportedSolid3.default;
 	exports.IconSisNotSyncedSolid = _IconSisNotSyncedSolid3.default;
 	exports.IconSisSyncedSolid = _IconSisSyncedSolid3.default;
 	exports.IconSkypeSolid = _IconSkypeSolid3.default;

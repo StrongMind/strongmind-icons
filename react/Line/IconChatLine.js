@@ -50,24 +50,22 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	return __webpack_require__(0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 0:
+/******/ ([
+/* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(210);
+	module.exports = __webpack_require__(36);
 
 
 /***/ },
-
-/***/ 2:
+/* 1 */,
+/* 2 */
 /***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
 
 /***/ },
-
-/***/ 3:
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -217,8 +215,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = BaseIcon;
 
 /***/ },
-
-/***/ 4:
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -226,8 +223,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 5:
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -333,8 +329,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 6:
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -438,8 +433,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 7:
+/* 7 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -470,8 +464,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 8:
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -496,8 +489,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 9:
+/* 9 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -517,8 +509,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 10:
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -541,8 +532,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 11:
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -567,8 +557,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 12:
+/* 12 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -577,8 +566,30 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 210:
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */,
+/* 23 */,
+/* 24 */,
+/* 25 */,
+/* 26 */,
+/* 27 */,
+/* 28 */,
+/* 29 */,
+/* 30 */,
+/* 31 */,
+/* 32 */,
+/* 33 */,
+/* 34 */,
+/* 35 */,
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -607,35 +618,34 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var IconUnknown2Line = function (_Component) {
-	  _inherits(IconUnknown2Line, _Component);
+	var IconChatLine = function (_Component) {
+	  _inherits(IconChatLine, _Component);
 
-	  function IconUnknown2Line() {
-	    _classCallCheck(this, IconUnknown2Line);
+	  function IconChatLine() {
+	    _classCallCheck(this, IconChatLine);
 
-	    return _possibleConstructorReturn(this, (IconUnknown2Line.__proto__ || Object.getPrototypeOf(IconUnknown2Line)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (IconChatLine.__proto__ || Object.getPrototypeOf(IconChatLine)).apply(this, arguments));
 	  }
 
-	  _createClass(IconUnknown2Line, [{
+	  _createClass(IconChatLine, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        _IconBase2.default,
 	        _extends({}, this.props, {
-	          name: 'IconUnknown2Line',
+	          name: 'IconChatLine',
 	          viewBox: '0 0 1920 1920' }),
 	        _react2.default.createElement('path', { d: 'M1919.84 1760H1250.4c-286.72 0-520-215.28-520-480s233.28-480 520-480 520 215.28 520 480c0 65.76-14.8 131.04-43.12 191.12L1919.84 1760zM1250.4 960c-198.48 0-360 143.6-360 320s161.52 320 360 320h370.56l-81.92-122.96 27.04-43.68c29.44-47.6 44.32-99.12 44.32-153.36 0-176.4-161.52-320-360-320zm-680 400H57.28l302-301.92C287.84 956.72 250.4 841.2 250.4 720c0-352.88 323.04-640 720-640 357.44 0 664 236.88 713.12 551.12l-158.08 24.72C1488.4 418.72 1249.76 240 970.4 240c-308.8 0-560 215.28-560 480 0 105.6 40 206.24 115.52 290.88l50.4 56.4L443.52 1200H570.4v160z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
 	      );
 	    }
 	  }]);
 
-	  return IconUnknown2Line;
+	  return IconChatLine;
 	}(_react.Component);
 
-	exports.default = IconUnknown2Line;
+	exports.default = IconChatLine;
 
 /***/ }
-
-/******/ })
+/******/ ])
 });
 ;

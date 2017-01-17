@@ -50,24 +50,22 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	return __webpack_require__(0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 0:
+/******/ ([
+/* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(210);
+	module.exports = __webpack_require__(36);
 
 
 /***/ },
-
-/***/ 2:
+/* 1 */,
+/* 2 */
 /***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
 
 /***/ },
-
-/***/ 3:
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -217,8 +215,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = BaseIcon;
 
 /***/ },
-
-/***/ 4:
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -226,8 +223,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 5:
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -333,8 +329,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 6:
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -438,8 +433,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 7:
+/* 7 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -470,8 +464,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 8:
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -496,8 +489,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 9:
+/* 9 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -517,8 +509,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 10:
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -541,8 +532,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 11:
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -567,8 +557,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 12:
+/* 12 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -577,8 +566,30 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-
-/***/ 210:
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */,
+/* 23 */,
+/* 24 */,
+/* 25 */,
+/* 26 */,
+/* 27 */,
+/* 28 */,
+/* 29 */,
+/* 30 */,
+/* 31 */,
+/* 32 */,
+/* 33 */,
+/* 34 */,
+/* 35 */,
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -607,35 +618,34 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var IconUnknown2Solid = function (_Component) {
-	  _inherits(IconUnknown2Solid, _Component);
+	var IconChatSolid = function (_Component) {
+	  _inherits(IconChatSolid, _Component);
 
-	  function IconUnknown2Solid() {
-	    _classCallCheck(this, IconUnknown2Solid);
+	  function IconChatSolid() {
+	    _classCallCheck(this, IconChatSolid);
 
-	    return _possibleConstructorReturn(this, (IconUnknown2Solid.__proto__ || Object.getPrototypeOf(IconUnknown2Solid)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (IconChatSolid.__proto__ || Object.getPrototypeOf(IconChatSolid)).apply(this, arguments));
 	  }
 
-	  _createClass(IconUnknown2Solid, [{
+	  _createClass(IconChatSolid, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        _IconBase2.default,
 	        _extends({}, this.props, {
-	          name: 'IconUnknown2Solid',
+	          name: 'IconChatSolid',
 	          viewBox: '0 0 1920 1920' }),
 	        _react2.default.createElement('path', { d: 'M576.077 1382.4c-3.38-25.19-5.683-50.688-5.683-76.8 0-339.302 294.681-614.4 658.252-614.4 159.053 0 304.896 52.685 418.714 140.314 2.458-20.89 3.686-42.087 3.686-63.514 0-338.765-310.118-614.4-691.2-614.4-381.081 0-691.2 275.635-691.2 614.4 0 116.352 35.943 227.251 104.448 324.48L83.251 1382.4h492.826zm1110.374 106.675c27.187-57.677 41.319-120.269 41.319-183.475 0-254.131-223.95-460.8-499.2-460.8-275.252 0-499.2 206.669-499.2 460.8s223.948 460.8 499.2 460.8h642.662l-184.78-277.325z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
 	      );
 	    }
 	  }]);
 
-	  return IconUnknown2Solid;
+	  return IconChatSolid;
 	}(_react.Component);
 
-	exports.default = IconUnknown2Solid;
+	exports.default = IconChatSolid;
 
 /***/ }
-
-/******/ })
+/******/ ])
 });
 ;

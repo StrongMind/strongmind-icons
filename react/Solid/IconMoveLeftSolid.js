@@ -55,7 +55,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(43);
+	module.exports = __webpack_require__(134);
 
 
 /***/ },
@@ -141,7 +141,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          width = _props.width,
 	          height = _props.height,
 	          viewBox = _props.viewBox,
-	          props = _objectWithoutProperties(_props, ['title', 'width', 'height', 'viewBox']);
+	          focusable = _props.focusable,
+	          props = _objectWithoutProperties(_props, ['title', 'width', 'height', 'viewBox', 'focusable']);
 
 	      delete props.name;
 	      delete props.children;
@@ -162,7 +163,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          viewBox: viewBox,
 	          'aria-hidden': title ? null : 'true',
 	          'aria-labelledby': this.labelledBy,
-	          role: this.role }),
+	          role: this.role,
+	          focusable: focusable }),
 	        this.renderTitle(),
 	        this.renderDesc(),
 	        _react2.default.createElement(
@@ -208,11 +210,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  title: _react.PropTypes.string,
 	  desc: _react.PropTypes.string,
 	  width: _react.PropTypes.string,
-	  height: _react.PropTypes.string
+	  height: _react.PropTypes.string,
+	  focusable: _react.PropTypes.bool
 	};
 	BaseIcon.defaultProps = {
 	  width: '1em',
-	  height: '1em'
+	  height: '1em',
+	  focusable: false
 	};
 	exports.default = BaseIcon;
 
@@ -578,7 +582,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 43:
+/***/ 134:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -607,32 +611,32 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var IconCollapseNavSolid = function (_Component) {
-	  _inherits(IconCollapseNavSolid, _Component);
+	var IconMoveLeftSolid = function (_Component) {
+	  _inherits(IconMoveLeftSolid, _Component);
 
-	  function IconCollapseNavSolid() {
-	    _classCallCheck(this, IconCollapseNavSolid);
+	  function IconMoveLeftSolid() {
+	    _classCallCheck(this, IconMoveLeftSolid);
 
-	    return _possibleConstructorReturn(this, (IconCollapseNavSolid.__proto__ || Object.getPrototypeOf(IconCollapseNavSolid)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (IconMoveLeftSolid.__proto__ || Object.getPrototypeOf(IconMoveLeftSolid)).apply(this, arguments));
 	  }
 
-	  _createClass(IconCollapseNavSolid, [{
+	  _createClass(IconMoveLeftSolid, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        _IconBase2.default,
 	        _extends({}, this.props, {
-	          name: 'IconCollapseNavSolid',
+	          name: 'IconMoveLeftSolid',
 	          viewBox: '0 0 1920 1920' }),
 	        _react2.default.createElement('path', { d: 'M941.675 696.03l-90.85-113.56L548.4 960.5l302.425 378.03 90.85-113.56-147.325-184.158H1603V880.188H794.35L941.675 696.03zM318 1603h128.5V318H318v1285z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
 	      );
 	    }
 	  }]);
 
-	  return IconCollapseNavSolid;
+	  return IconMoveLeftSolid;
 	}(_react.Component);
 
-	exports.default = IconCollapseNavSolid;
+	exports.default = IconMoveLeftSolid;
 
 /***/ }
 

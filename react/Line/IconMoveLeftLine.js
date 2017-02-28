@@ -55,7 +55,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(74);
+	module.exports = __webpack_require__(134);
 
 
 /***/ },
@@ -141,7 +141,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          width = _props.width,
 	          height = _props.height,
 	          viewBox = _props.viewBox,
-	          props = _objectWithoutProperties(_props, ['title', 'width', 'height', 'viewBox']);
+	          focusable = _props.focusable,
+	          props = _objectWithoutProperties(_props, ['title', 'width', 'height', 'viewBox', 'focusable']);
 
 	      delete props.name;
 	      delete props.children;
@@ -162,7 +163,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          viewBox: viewBox,
 	          'aria-hidden': title ? null : 'true',
 	          'aria-labelledby': this.labelledBy,
-	          role: this.role }),
+	          role: this.role,
+	          focusable: focusable }),
 	        this.renderTitle(),
 	        this.renderDesc(),
 	        _react2.default.createElement(
@@ -208,11 +210,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  title: _react.PropTypes.string,
 	  desc: _react.PropTypes.string,
 	  width: _react.PropTypes.string,
-	  height: _react.PropTypes.string
+	  height: _react.PropTypes.string,
+	  focusable: _react.PropTypes.bool
 	};
 	BaseIcon.defaultProps = {
 	  width: '1em',
-	  height: '1em'
+	  height: '1em',
+	  focusable: false
 	};
 	exports.default = BaseIcon;
 
@@ -578,7 +582,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 74:
+/***/ 134:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -607,32 +611,32 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var IconExpandNavLine = function (_Component) {
-	  _inherits(IconExpandNavLine, _Component);
+	var IconMoveLeftLine = function (_Component) {
+	  _inherits(IconMoveLeftLine, _Component);
 
-	  function IconExpandNavLine() {
-	    _classCallCheck(this, IconExpandNavLine);
+	  function IconMoveLeftLine() {
+	    _classCallCheck(this, IconMoveLeftLine);
 
-	    return _possibleConstructorReturn(this, (IconExpandNavLine.__proto__ || Object.getPrototypeOf(IconExpandNavLine)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (IconMoveLeftLine.__proto__ || Object.getPrototypeOf(IconMoveLeftLine)).apply(this, arguments));
 	  }
 
-	  _createClass(IconExpandNavLine, [{
+	  _createClass(IconMoveLeftLine, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        _IconBase2.default,
 	        _extends({}, this.props, {
-	          name: 'IconExpandNavLine',
+	          name: 'IconMoveLeftLine',
 	          viewBox: '0 0 1920 1920' }),
-	        _react2.default.createElement('path', { d: 'M979.325 696.03l90.85-113.56L1372.6 960.5l-302.425 378.03-90.85-113.56 147.326-184.158H318V880.188h808.65L979.326 696.03zM1603 1603h-128.5V318H1603v1285z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
+	        _react2.default.createElement('path', { d: 'M941.675 696.03l-90.85-113.56L548.4 960.5l302.425 378.03 90.85-113.56-147.325-184.158H1603V880.188H794.35L941.675 696.03zM318 1603h128.5V318H318v1285z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
 	      );
 	    }
 	  }]);
 
-	  return IconExpandNavLine;
+	  return IconMoveLeftLine;
 	}(_react.Component);
 
-	exports.default = IconExpandNavLine;
+	exports.default = IconMoveLeftLine;
 
 /***/ }
 

@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["react"], factory);
 	else if(typeof exports === 'object')
-		exports["InstructureIconsSolid"] = factory(require("react"));
+		exports["InstructureIconsLine"] = factory(require("react"));
 	else
-		root["InstructureIconsSolid"] = factory(root["React"]);
+		root["InstructureIconsLine"] = factory(root["React"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_2__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -55,7 +55,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(73);
+	module.exports = __webpack_require__(135);
 
 
 /***/ },
@@ -141,7 +141,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          width = _props.width,
 	          height = _props.height,
 	          viewBox = _props.viewBox,
-	          props = _objectWithoutProperties(_props, ['title', 'width', 'height', 'viewBox']);
+	          focusable = _props.focusable,
+	          props = _objectWithoutProperties(_props, ['title', 'width', 'height', 'viewBox', 'focusable']);
 
 	      delete props.name;
 	      delete props.children;
@@ -162,7 +163,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	          viewBox: viewBox,
 	          'aria-hidden': title ? null : 'true',
 	          'aria-labelledby': this.labelledBy,
-	          role: this.role }),
+	          role: this.role,
+	          focusable: focusable }),
 	        this.renderTitle(),
 	        this.renderDesc(),
 	        _react2.default.createElement(
@@ -208,11 +210,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  title: _react.PropTypes.string,
 	  desc: _react.PropTypes.string,
 	  width: _react.PropTypes.string,
-	  height: _react.PropTypes.string
+	  height: _react.PropTypes.string,
+	  focusable: _react.PropTypes.bool
 	};
 	BaseIcon.defaultProps = {
 	  width: '1em',
-	  height: '1em'
+	  height: '1em',
+	  focusable: false
 	};
 	exports.default = BaseIcon;
 
@@ -578,7 +582,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 73:
+/***/ 135:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -607,32 +611,32 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var IconExpandNavSolid = function (_Component) {
-	  _inherits(IconExpandNavSolid, _Component);
+	var IconMoveRightLine = function (_Component) {
+	  _inherits(IconMoveRightLine, _Component);
 
-	  function IconExpandNavSolid() {
-	    _classCallCheck(this, IconExpandNavSolid);
+	  function IconMoveRightLine() {
+	    _classCallCheck(this, IconMoveRightLine);
 
-	    return _possibleConstructorReturn(this, (IconExpandNavSolid.__proto__ || Object.getPrototypeOf(IconExpandNavSolid)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (IconMoveRightLine.__proto__ || Object.getPrototypeOf(IconMoveRightLine)).apply(this, arguments));
 	  }
 
-	  _createClass(IconExpandNavSolid, [{
+	  _createClass(IconMoveRightLine, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        _IconBase2.default,
 	        _extends({}, this.props, {
-	          name: 'IconExpandNavSolid',
+	          name: 'IconMoveRightLine',
 	          viewBox: '0 0 1920 1920' }),
 	        _react2.default.createElement('path', { d: 'M979.325 696.03l90.85-113.56L1372.6 960.5l-302.425 378.03-90.85-113.56 147.326-184.158H318V880.188h808.65L979.326 696.03zM1603 1603h-128.5V318H1603v1285z', stroke: 'none', strokeWidth: '1', fillRule: 'evenodd' })
 	      );
 	    }
 	  }]);
 
-	  return IconExpandNavSolid;
+	  return IconMoveRightLine;
 	}(_react.Component);
 
-	exports.default = IconExpandNavSolid;
+	exports.default = IconMoveRightLine;
 
 /***/ }
 

@@ -1,20 +1,18 @@
-import React, { Component } from 'react'
-import BaseIcon from '../IconBase'
+import React from 'react'
+import SVGIcon from '../SVGIcon'
 
-export default class IconMsWordLine extends Component {
-  render() {
-    return (
-      <BaseIcon
-        {...this.props}
-        name="IconMsWordLine"
-        viewBox="0 0 1920 1920">
-        
-    <g stroke="none" strokeWidth="1" fillRule="evenodd">
+export default function IconMsWordLine (props) {
+  return (
+    <SVGIcon
+      {...props}
+      name="IconMsWordLine"
+      viewBox="0 0 1920 1920"
+      src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill-rule="evenodd">
         <path d="M1271.165 964.73h125.252v-82.273h-125.252c-68.996 0-125.165 55.427-125.165 123.302v82.058c0 67.874 56.169 123.258 125.165 123.258h125.252v-82.272h-125.252c-22.994 0-41.533-18.33-41.533-40.986v-82.058c0-22.64 18.54-41.03 41.533-41.03zm-458.792 82.036c0-90.494-74.839-164.309-166.828-164.309H562v328.618h83.545c91.989 0 166.828-73.815 166.828-164.309zM646 965.457c45.878 0 83.415 36.84 83.415 82.058 0 45.235-37.537 82.059-83.415 82.059V965.457zm208 40.088v82.058c0 67.875 56.212 123.088 125.208 123.088s125.209-55.213 125.209-123.088v-82.058c0-67.875-56.213-123.088-125.209-123.088-68.996 0-125.208 55.213-125.208 123.088zm167.154.941v82.059c0 22.656-18.584 41.029-41.577 41.029-22.994 0-41.577-18.373-41.577-41.03v-82.058c0-22.64 18.583-41.029 41.577-41.029 22.993 0 41.577 18.39 41.577 41.03zM1520 1680H400v-80H240v80c0 88.24 71.76 160 160 160h1120c88.24 0 160-71.76 160-160v-80h-160v80z"/>
         <path d="M400 1600H240V240c0-88.16 71.76-160 160-160h913.12L1680 446.88V1600h-160V560h-320V240H400v1360z"/>
     </g>
-
-      </BaseIcon>
-    )
-  }
+</svg>`}
+    />
+  )
 }

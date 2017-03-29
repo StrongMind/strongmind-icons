@@ -61,6 +61,7 @@ export IconExpandItemsLine from './IconExpandItemsLine.js';
 export IconExpandLine from './IconExpandLine.js';
 export IconExportContentLine from './IconExportContentLine.js';
 export IconExportLine from './IconExportLine.js';
+export IconExternalLinkLine from './IconExternalLinkLine.js';
 export IconEyeLine from './IconEyeLine.js';
 export IconFacebookBoxedLine from './IconFacebookBoxedLine.js';
 export IconFacebookLine from './IconFacebookLine.js';

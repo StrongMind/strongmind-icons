@@ -61,6 +61,7 @@ export IconExpandItemsSolid from './IconExpandItemsSolid.js';
 export IconExpandSolid from './IconExpandSolid.js';
 export IconExportContentSolid from './IconExportContentSolid.js';
 export IconExportSolid from './IconExportSolid.js';
+export IconExternalLinkSolid from './IconExternalLinkSolid.js';
 export IconEyeSolid from './IconEyeSolid.js';
 export IconFacebookBoxedSolid from './IconFacebookBoxedSolid.js';
 export IconFacebookSolid from './IconFacebookSolid.js';

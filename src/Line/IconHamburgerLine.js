@@ -1,17 +1,15 @@
-import React, { Component } from 'react'
-import BaseIcon from '../IconBase'
+import React from 'react'
+import SVGIcon from '../SVGIcon'
 
-export default class IconHamburgerLine extends Component {
-  render() {
-    return (
-      <BaseIcon
-        {...this.props}
-        name="IconHamburgerLine"
-        viewBox="0 0 1920 1920">
-        
-    <path d="M1522 1480H402v-240h1120v240zm0-400H402V840h1120v240zm0-400H402V440h1120v240z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
-
-      </BaseIcon>
-    )
-  }
+export default function IconHamburgerLine (props) {
+  return (
+    <SVGIcon
+      {...props}
+      name="IconHamburgerLine"
+      viewBox="0 0 1920 1920"
+      src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1522 1480H402v-240h1120v240zm0-400H402V840h1120v240zm0-400H402V440h1120v240z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
+</svg>`}
+    />
+  )
 }

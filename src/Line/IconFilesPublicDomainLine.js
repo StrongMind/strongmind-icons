@@ -1,20 +1,18 @@
-import React, { Component } from 'react'
-import BaseIcon from '../IconBase'
+import React from 'react'
+import SVGIcon from '../SVGIcon'
 
-export default class IconFilesPublicDomainLine extends Component {
-  render() {
-    return (
-      <BaseIcon
-        {...this.props}
-        name="IconFilesPublicDomainLine"
-        viewBox="0 0 1920 1920">
-        
-    <g stroke="none" strokeWidth="1" fillRule="evenodd">
+export default function IconFilesPublicDomainLine (props) {
+  return (
+    <SVGIcon
+      {...props}
+      name="IconFilesPublicDomainLine"
+      viewBox="0 0 1920 1920"
+      src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill-rule="evenodd">
         <path d="M960 1597.6c-352.141 0-637.6-285.459-637.6-637.6S607.859 322.4 960 322.4s637.6 285.459 637.6 637.6-285.459 637.6-637.6 637.6M960 163c-440.183 0-797 356.817-797 797s356.817 797 797 797 797-356.817 797-797-356.817-797-797-797"/>
         <path d="M840.477 920.212c-11.424 12.593-28.506 18.792-51.274 18.792h-94.254V807.587l.368.417h91.07c47.475 0 71.199 21.647 71.199 65.56 0 18.704-5.686 34.055-17.11 46.648m-35.625-194.208H585.949v435h111v-140h86.595c35.095 0 65.46-5.131 91.044-14.881 25.637-9.803 44.845-22.517 57.65-37.925 12.805-15.462 21.838-30.918 27.045-46.327 5.207-15.41 7.81-31.716 7.81-48.56 0-98.11-54.116-147.307-162.242-147.307M1255.315 1035.471c-17.56 22.954-45.774 34.532-84.694 34.532h-63.672V817.416l-.177-.026 62.542.08c39.85 0 68.505 11.423 86.039 34.27 17.534 22.928 26.282 53.583 26.282 91.892 0 38.31-8.786 68.938-26.32 91.84m77.575-256.07c-39.903-35.494-94.95-53.399-165.086-53.399H996.949v434.734l.032.266h170.823c70.163 0 125.183-17.893 165.086-53.386 39.797-35.44 59.722-90.279 59.722-164.135 0-73.775-19.925-128.588-59.722-164.08"/>
     </g>
-
-      </BaseIcon>
-    )
-  }
+</svg>`}
+    />
+  )
 }

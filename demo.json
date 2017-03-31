@@ -5,12 +5,6 @@
     "demos": [{
       "path": "demos/svg/Large.html",
       "name": "Large"
-    }, {
-      "path": "demos/svg/Medium.html",
-      "name": "Medium"
-    }, {
-      "path": "demos/svg/Small.html",
-      "name": "Small"
     }]
   }, {
     "name": "SVG Sprite",

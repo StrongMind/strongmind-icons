@@ -529,7 +529,7 @@ function clean(src) {
 function parseAttributes(src) {
   var attributes = {};
   var SVGAttributesRegExp = /<svg\s+([^>]*)\s*>/;
-  var namesAndValuesRegExp = /\s+([\w\-.:]+)(\s*=\s*(?:"([^"]*)"|'([^']*)'|([\w\-.:]+)))?/g;
+  var namesAndValuesRegExp = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g;
 
   if (typeof src === 'string') {
     var attributesMatches = SVGAttributesRegExp.exec(src);
@@ -538,7 +538,9 @@ function parseAttributes(src) {
     var match = namesAndValuesRegExp.exec(attributesString);
 
     while (match != null) {
-      attributes[match[1]] = match[2] || (match[3] ? match[3] : match[4] ? match[4] : match[5]) || match[1];
+      if (['xmlns', 'version'].indexOf(match[1]) === -1) {
+        attributes[match[1]] = match[2] || (match[3] ? match[3] : match[4] ? match[4] : match[5]) || match[1];
+      }
       match = namesAndValuesRegExp.exec(attributesString);
     }
   }

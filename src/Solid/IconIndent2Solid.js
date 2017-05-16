@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 import SVGIcon from '../SVGIcon'
 
-export default function IconIndent2Solid (props) {
-  return (
-    <SVGIcon
-      {...props}
-      name="IconIndent2Solid"
-      viewBox="0 0 1920 1920"
-      src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
+export default class IconIndent2Solid extends Component {
+  render () {
+    return (
+      <SVGIcon
+        {...this.props}
+        name="IconIndent2Solid"
+        viewBox="0 0 1920 1920"
+        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <path d="M320 400h1440V240H320v160zm480 320h960V560H800v160zm0 320h960V880H800v160zm0 320h960v-160H800v160zm-480 320h1440v-160H320v160zM160 480l480 480-480 480V480z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
 </svg>`}
-    />
-  )
+      />
+    )
+  }
 }

@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 import SVGIcon from '../SVGIcon'
 
-export default function IconDiscussionSolid (props) {
-  return (
-    <SVGIcon
-      {...props}
-      name="IconDiscussionSolid"
-      viewBox="0 0 1920 1920"
-      src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
+export default class IconDiscussionSolid extends Component {
+  render () {
+    return (
+      <SVGIcon
+        {...this.props}
+        name="IconDiscussionSolid"
+        viewBox="0 0 1920 1920"
+        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <path d="M1000 240c-441.12 0-800 323.04-800 720 0 138.8 43.28 271.36 125.84 386.88L120 1680h880c441.12 0 800-323.04 800-720s-358.88-720-800-720" stroke="none" stroke-width="1" fill-rule="evenodd"/>
 </svg>`}
-    />
-  )
+      />
+    )
+  }
 }

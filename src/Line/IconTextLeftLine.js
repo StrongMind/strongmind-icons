@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 import SVGIcon from '../SVGIcon'
 
-export default function IconTextLeftLine (props) {
-  return (
-    <SVGIcon
-      {...props}
-      name="IconTextLeftLine"
-      viewBox="0 0 1920 1920"
-      src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
+export default class IconTextLeftLine extends Component {
+  render () {
+    return (
+      <SVGIcon
+        {...this.props}
+        name="IconTextLeftLine"
+        viewBox="0 0 1920 1920"
+        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <path d="M1602 240H162v160h1440V240zm-320 320H162v160h1120V560zM162 1040h1600V880H162v160zm1120 160H162v160h1120v-160zM162 1680h1440v-160H162v160z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
 </svg>`}
-    />
-  )
+      />
+    )
+  }
 }

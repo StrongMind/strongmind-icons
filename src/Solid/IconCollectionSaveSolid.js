@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 import SVGIcon from '../SVGIcon'
 
-export default function IconCollectionSaveSolid (props) {
-  return (
-    <SVGIcon
-      {...props}
-      name="IconCollectionSaveSolid"
-      viewBox="0 0 1920 1920"
-      src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
+export default class IconCollectionSaveSolid extends Component {
+  render () {
+    return (
+      <SVGIcon
+        {...this.props}
+        name="IconCollectionSaveSolid"
+        viewBox="0 0 1920 1920"
+        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <path d="M1223.445 663.432L1040 846.87V160H879.993v686.87L696.547 663.432 583.423 776.551l376.573 376.634 376.573-376.634-113.124-113.119zM1360.06 1040v320H560.02v-320H160v720h1600v-720h-399.94z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
 </svg>`}
-    />
-  )
+      />
+    )
+  }
 }

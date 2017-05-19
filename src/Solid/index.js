@@ -15,6 +15,8 @@ export IconArrowRightSolid from './IconArrowRightSolid.js';
 export IconArrowUpSolid from './IconArrowUpSolid.js';
 export IconAssignmentSolid from './IconAssignmentSolid.js';
 export IconAudioSolid from './IconAudioSolid.js';
+export IconBlueprintLockSolid from './IconBlueprintLockSolid.js';
+export IconBlueprintSolid from './IconBlueprintSolid.js';
 export IconBookmarkSolid from './IconBookmarkSolid.js';
 export IconBoxSolid from './IconBoxSolid.js';
 export IconCalendarAddSolid from './IconCalendarAddSolid.js';

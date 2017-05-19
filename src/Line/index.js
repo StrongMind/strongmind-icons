@@ -15,6 +15,8 @@ export IconArrowRightLine from './IconArrowRightLine.js';
 export IconArrowUpLine from './IconArrowUpLine.js';
 export IconAssignmentLine from './IconAssignmentLine.js';
 export IconAudioLine from './IconAudioLine.js';
+export IconBlueprintLine from './IconBlueprintLine.js';
+export IconBlueprintLockLine from './IconBlueprintLockLine.js';
 export IconBookmarkLine from './IconBookmarkLine.js';
 export IconBoxLine from './IconBoxLine.js';
 export IconCalendarAddLine from './IconCalendarAddLine.js';

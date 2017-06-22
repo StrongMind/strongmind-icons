@@ -8,10 +8,11 @@ export default class IconEndSolid extends Component {
         {...this.props}
         name="IconEndSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M1336.56 1223.44l-113.12 113.12L960 1073.12l-263.44 263.44-113.12-113.12L846.88 960 583.44 696.56l113.12-113.12L960 846.88l263.44-263.44 113.12 113.12L1073.12 960l263.44 263.44zM960 160c-441.76 0-800 358.24-800 800s358.24 800 800 800c441.84 0 800-358.24 800-800s-358.16-800-800-800z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M1743.858.012L959.869 783.877 176.005.012 0 176.142l783.74 783.989L0 1743.87 176.005 1920l783.864-783.74L1743.858 1920l176.13-176.13-783.865-783.74 783.865-783.988z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

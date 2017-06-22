@@ -8,12 +8,11 @@ export default class IconExpandItemsSolid extends Component {
         {...this.props}
         name="IconExpandItemsSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="none" stroke-width="1" fill-rule="evenodd">
-        <path d="M1138.841 741.29l93.943-93.913L986.5 401.17 740.216 647.377l93.943 93.913 85.904-85.877v609.174l-85.904-85.877-93.943 93.913L986.5 1518.83l246.284-246.207-93.943-93.913-85.904 85.877V655.413zM455 163h1063v132.833H455zM455 1624.167h1063V1757H455z"/>
-    </g>
-</svg>`}
-      />
+      >
+        
+    <path d="M959.921.01L453 506.933l152.28 152.28 246.946-246.944v1095.475L605.28 1260.798 453 1413.078 959.921 1920l506.921-506.921-152.28-152.281-246.946 246.945V412.268l246.945 246.945 152.281-152.281z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

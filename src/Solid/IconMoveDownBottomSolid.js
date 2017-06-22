@@ -8,10 +8,11 @@ export default class IconMoveDownBottomSolid extends Component {
         {...this.props}
         name="IconMoveDownBottomSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M880 160v1006.88L696.56 983.44l-113.12 113.12L960 1473.12l376.56-376.56-113.12-113.12L1040 1166.88V160H880zM320 1760h1280v-160H320v160z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M1355.294 1637.143V1411.26h225.882v225.883h-225.882zm338.824.113V1411.26H1920v225.996h-225.882zm-677.647-.113V1411.26h225.882v225.883H1016.47zM0 168.919h225.882v1242.353H348.65v-222.269l441.94 335.323-441.94 335.096v-222.268H0V168.919zm677.647 1016.459V959.496H1920v225.882H677.647zm0-903.53V55.966H1920v225.882H677.647zm0 451.878V507.844H1920v225.882H677.647z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

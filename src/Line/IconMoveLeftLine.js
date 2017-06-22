@@ -8,10 +8,11 @@ export default class IconMoveLeftLine extends Component {
         {...this.props}
         name="IconMoveLeftLine"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M941.675 696.03l-90.85-113.56L548.4 960.5l302.425 378.03 90.85-113.56-147.325-184.158H1603V880.188H794.35L941.675 696.03zM318 1603h128.5V318H318v1285z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M242.475 960.344l610.694-610.58 80.642 80.643-473.02 473.02H1920v113.948H460.792l473.02 473.02-80.643 80.642-610.694-610.693zM0 1644.756V276h114.063v1368.756H0z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

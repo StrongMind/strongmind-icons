@@ -8,10 +8,11 @@ export default class IconTextCenteredSolid extends Component {
         {...this.props}
         name="IconTextCenteredSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M1680 240H240v160h1440V240zm-160 320H400v160h1120V560zM160 1040h1600V880H160v160zm240 320h1120v-160H400v160zm-160 320h1440v-160H240v160z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M256 320.128V64h1408v256.128H256zm-256 384v-256h1920v256H0zm128 384v-256h1664v256H128zm-128 384V1216h1920v256.128H0zm256 384v-256h1408v256H256z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

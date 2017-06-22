@@ -8,10 +8,11 @@ export default class IconTextLeftSolid extends Component {
         {...this.props}
         name="IconTextLeftSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M1600 240H160v160h1440V240zm-320 320H160v160h1120V560zM160 1040h1600V880H160v160zm1120 160H160v160h1120v-160zM160 1680h1440v-160H160v160z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M0 320V63.872h1664V320H0zm0 384V448h1920v256H0zm0 384V832h1664v256H0zm0 384v-256.128h1920V1472H0zm0 384v-256h1664v256H0z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

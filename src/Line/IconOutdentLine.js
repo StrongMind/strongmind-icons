@@ -8,12 +8,11 @@ export default class IconOutdentLine extends Component {
         {...this.props}
         name="IconOutdentLine"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="none" stroke-width="1" fill-rule="evenodd">
-        <path d="M239.4 402.333H1674V243H239.4zM717.6 721H1674V561.667H717.6zM717.6 1039.667H1674V880.333H717.6zM717.6 1358.333H1674V1199H717.6zM239.4 1677H1674v-159.333H239.4zM558.2 482L80 960l478.2 478z"/>
-    </g>
-</svg>`}
-      />
+      >
+        
+    <path d="M885.734 548.955V434.037H1920v114.918H885.734zm0 344.756V778.792H1920v114.919H885.734zm-804.43 344.755v-114.918h1838.581v114.918H81.305zm0 344.755v-114.918h1838.581v114.918H81.305zM270.519 336l81.247 81.132L220.07 548.944h493.345v114.918H220.069l131.696 131.812-81.247 81.247L0 606.518 270.518 336z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

@@ -8,10 +8,11 @@ export default class IconTextRightLine extends Component {
         {...this.props}
         name="IconTextRightLine"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M322 400h1440V240H322v160zm320 320h1120V560H642v160zm-480 320h1600V880H162v160zm480 320h1120v-160H642v160zm-320 320h1440v-160H322v160z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M255.983 255.991V128H1920v127.991H255.983zM0 639.966V511.974h1919.872v127.992H0zm255.983 383.974V895.95H1920v127.991H255.983zM0 1407.915v-127.992h1919.872v127.992H0zm255.983 383.974v-127.991H1920v127.991H255.983z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

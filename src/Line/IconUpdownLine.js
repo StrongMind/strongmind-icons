@@ -8,10 +8,11 @@ export default class IconUpdownLine extends Component {
         {...this.props}
         name="IconUpdownLine"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M696.56 1303.44l-113.12 113.12L960 1793.12l376.56-376.56-113.12-113.12L1040 1486.88V433.12l183.44 183.44 113.12-113.12L960 126.88 583.44 503.44l113.12 113.12L880 433.12v1053.76z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M960.182.012L451 509.193l82.7 82.817 368.112-368.113v1472.217L533.7 1328.12l-82.7 82.7L960.182 1920l509.181-509.182-82.582-82.7-368.113 367.996V223.897l368.113 368.113 82.582-82.817z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

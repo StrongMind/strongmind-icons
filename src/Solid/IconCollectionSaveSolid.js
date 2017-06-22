@@ -8,10 +8,11 @@ export default class IconCollectionSaveSolid extends Component {
         {...this.props}
         name="IconCollectionSaveSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M1223.445 663.432L1040 846.87V160H879.993v686.87L696.547 663.432 583.423 776.551l376.573 376.634 376.573-376.634-113.124-113.119zM1360.06 1040v320H560.02v-320H160v720h1600v-720h-399.94z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M1467.552 1700.252H459.79L162.36 1402.824 7 1558.186 368.814 1920h1189.713l361.815-361.814-155.362-155.362-297.428 297.428zm-501.65-276.947L448.724 906.129l155.362-155.362 251.94 251.94V0h219.748v1002.708l251.94-251.94 155.362 155.36-517.176 517.177z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

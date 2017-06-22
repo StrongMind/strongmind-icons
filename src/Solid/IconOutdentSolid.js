@@ -8,12 +8,11 @@ export default class IconOutdentSolid extends Component {
         {...this.props}
         name="IconOutdentSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="none" stroke-width="1" fill-rule="evenodd">
-        <path d="M239.4 402.333H1674V243H239.4zM717.6 721H1674V561.667H717.6zM717.6 1039.667H1674V880.333H717.6zM717.6 1358.333H1674V1199H717.6zM239.4 1677H1674v-159.333H239.4zM558.2 482L80 960l478.2 478z"/>
-    </g>
-</svg>`}
-      />
+      >
+        
+    <path d="M112.941 1292.93v-225.995H1920v225.995H112.941zM515.656 112.955v276.48h274.898v225.882H515.656v276.367L-.034 502.376l515.69-389.421zM112.94 1744.695v-225.882H1920v225.882H112.941zm790.588-903.53V615.284H1920v225.883H903.53zm0-451.764V163.406H1920V389.4H903.53z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

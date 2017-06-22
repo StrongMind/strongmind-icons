@@ -8,10 +8,11 @@ export default class IconCopySolid extends Component {
         {...this.props}
         name="IconCopySolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M480 1920h1280V319.987H480V1920zm960-879.991h-240V800.007h-160v240.002H800v160.001h240v240.002h160V1200.01h240v-160.001zM160 0v1600.013h160V160.001h1040V0H160z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M451.704 0H1920v1468.296h-338.812V338.812H451.704V0zM0 1919.944V451.76h1468.183v1468.184H0zm338.812-903.498h790.56V903.509h-790.56v112.937zm0 225.874h564.686v-112.937H338.812v112.937zm0 225.988h790.56v-113.05h-790.56v113.05z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

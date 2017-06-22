@@ -8,10 +8,11 @@ export default class IconUpdownSolid extends Component {
         {...this.props}
         name="IconUpdownSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M696.56 1303.44l-113.12 113.12L960 1793.12l376.56-376.56-113.12-113.12L1040 1486.88V433.12l183.44 183.44 113.12-113.12L960 126.88 583.44 503.44l113.12 113.12L880 433.12v1053.76z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M959.921.01L453 506.933l152.28 152.28 246.946-246.944v1095.475L605.28 1260.798 453 1413.078 959.921 1920l506.921-506.921-152.28-152.281-246.946 246.945V412.268l246.945 246.945 152.281-152.281z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

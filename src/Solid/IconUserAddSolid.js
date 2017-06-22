@@ -8,10 +8,11 @@ export default class IconUserAddSolid extends Component {
         {...this.props}
         name="IconUserAddSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M1680 880h-640V240H880v640H240v160h640v640h160v-640h640z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M840 0v840H0v240h840v840h240v-840h840V840h-840V0z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

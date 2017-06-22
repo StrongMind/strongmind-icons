@@ -8,13 +8,14 @@ export default class IconExportSolid extends Component {
         {...this.props}
         name="IconExportSolid"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="none" stroke-width="1" fill-rule="evenodd">
-        <path d="M1360 446.872l-113.12 113.12 160 160H960c-176.48 0-320 143.52-320 320v80h160v-80c0-88.16 71.76-160 160-160h446.88l-160 160 113.12 113.12 353.12-353.12L1360 446.872z"/>
-        <path d="M1040 1440H320V480h880V320H160v1280h1040v-400h-160z"/>
+      >
+        
+    <g stroke="none" strokeWidth="1" fillRule="evenodd">
+        <path d="M675.038 168.955h677.647V733.66h564.706v1016.47H675.038v-677.647h-458.88l272.979 272.98-79.962 79.848L-.011 1016.127l409.186-409.3 79.962 79.85-272.979 272.866h458.88V168.955zm112.941 903.53h564.706V959.542H787.98v112.941z"/>
+        <path d="M1465.649 620.776h434.823L1465.65 185.84z"/>
     </g>
-</svg>`}
-      />
+
+      </SVGIcon>
     )
   }
 }

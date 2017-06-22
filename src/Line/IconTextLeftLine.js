@@ -8,10 +8,11 @@ export default class IconTextLeftLine extends Component {
         {...this.props}
         name="IconTextLeftLine"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M1602 240H162v160h1440V240zm-320 320H162v160h1120V560zM162 1040h1600V880H162v160zm1120 160H162v160h1120v-160zM162 1680h1440v-160H162v160z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M0 256V128h1664v128H0zm0 384V512h1920v128H0zm0 384V896h1664v128H0zm0 384v-128h1920v128H0zm0 384v-128h1664v128H0z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

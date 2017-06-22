@@ -8,10 +8,11 @@ export default class IconIndent2Line extends Component {
         {...this.props}
         name="IconIndent2Line"
         viewBox="0 0 1920 1920"
-        src={`<svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <path d="M322 400h1440V240H322v160zm480 320h960V560H802v160zm0 320h960V880H802v160zm0 320h960v-160H802v160zm-480 320h1440v-160H322v160zM162 480l480 480-480 480V480z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
-</svg>`}
-      />
+      >
+        
+    <path d="M840 522.42v-120h1080v120H840zm0 360v-120h1080v120H840zm-840 360v-120h1920v120H0zm0 360v-120h1920v120H0zM462.456 300.048l282.48 282.48-282.48 282.36-84.84-84.84 137.52-137.64H-.024v-120h515.16l-137.52-137.64 84.84-84.72z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
+
+      </SVGIcon>
     )
   }
 }

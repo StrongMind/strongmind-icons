@@ -9,9 +9,9 @@ export default class IconPlaySolid extends Component {
         name="IconPlaySolid"
         viewBox="0 0 1920 1920"
       >
-        
-    <path d="M175 .024V1920l1570.845-959.927z" stroke="none" strokeWidth="1" fillRule="evenodd"/>
-
+        <svg version="1.1" viewBox="0 0 1920 1920">
+	<path d="M175 .024V1920l1570.845-959.927z" stroke="none" strokeWidth="1"/>
+</svg>
       </SVGIcon>
     )
   }

@@ -1,5 +1,5 @@
 {
-  "symbols": ["add", "address-book", "admin", "alerts", "analytics", "android", "annotate", "announcement", "apple", "arrow-down", "arrow-left", "arrow-open-down", "arrow-open-left", "arrow-open-right", "arrow-open-up", "arrow-right", "arrow-up", "assignment", "audio", "bank", "blueprint-lock", "blueprint", "bold", "bookmark", "box", "bullet-list", "calendar-add", "calendar-clock", "calendar-day", "calendar-days", "calendar-month", "calendar-reserved", "chat", "check-dark", "check-mark", "check-plus", "check", "clear-text-formatting", "clock", "cloud-download", "cloud-lock", "collapse", "collection-save", "collection", "commons", "complete", "compose", "copy-course", "copy", "courses", "dashboard", "deactivate-user", "discussion-check", "discussion-new", "discussion-reply-2", "discussion-reply-dark", "discussion-reply", "discussion-search", "discussion-x", "discussion", "document", "download", "drag-handle", "drop-down", "edit", "educators", "email", "empty", "end", "equation", "equella", "essay", "expand-items", "expand-left", "expand-right", "expand", "export-content", "export", "external-link", "eye", "facebook-boxed", "facebook", "fast-forward", "file-locked", "files-copyright", "files-creative-commons", "files-fair-use", "files-obtained-permission", "files-public-domain", "filmstrip", "flag", "folder-locked", "folder", "forward", "github", "gradebook-export", "gradebook-import", "gradebook", "group-dark-new", "group-new", "group", "hamburger", "heart", "highlighter", "home", "hour-glass", "image", "import-content", "import", "inbox", "indent-2", "indent", "info", "instructure", "integrations", "invitation", "italic", "keyboard-shortcuts", "launch", "life-preserver", "like", "link", "linkedin", "lock", "lti", "mark-as-read", "marker", "masquerade", "mastery-paths", "materials-required-light", "materials-required", "mature-light", "mature", "media", "message", "mini-arrow-down", "mini-arrow-left", "mini-arrow-right", "mini-arrow-up", "minimize", "module", "more", "move-down-bottom", "move-down", "move-left", "move-right", "move-up-top", "move-up", "ms-excel", "ms-ppt", "ms-word", "muted", "next-unread", "not-graded", "note-dark", "note-light", "note", "numbered-list", "off", "open-folder", "outcomes", "outdent", "outdent2", "page-down", "page-up", "paint", "paperclip", "partial", "pause", "pdf", "peer-graded", "peer-review", "pin", "pinterest", "play", "plus", "post-to-sis", "prerequisite", "printer", "publish", "question", "quiz-stats-avg", "quiz-stats-cronbachs-alpha", "quiz-stats-deviation", "quiz-stats-high", "quiz-stats-low", "quiz-stats-time", "quiz", "refresh", "remove-bookmark", "remove-from-collection", "remove-link", "replied", "reply-2", "reply-all-2", "reply", "reset", "rewind", "rss-add", "rss", "rubric-dark", "rubric", "save", "search-address-book", "search", "settings-2", "settings", "shape-oval", "shape-polygon", "shape-rectangle", "sis-imported", "sis-not-synced", "sis-synced", "skype", "speed-grader", "standards", "star-light", "star", "stats", "stop", "strikethrough", "student-view", "syllabus", "table", "tag", "target", "text-background-color", "text-centered", "text-color", "text-left", "text-right", "text-subscript", "text-superscript", "text", "textarea", "timer", "toggle-left", "toggle-right", "trash", "trouble", "twitter-boxed", "twitter", "underline", "unlock", "unmuted", "unpublish", "unpublished", "updown", "upload", "user-add", "user", "video", "warning", "windows", "wordpress", "x", "zipped", "zoom-in", "zoom-out"],
+  "symbols": ["add", "address-book", "admin", "alerts", "analytics", "android", "annotate", "announcement", "apple", "arrow-down", "arrow-left", "arrow-open-down", "arrow-open-left", "arrow-open-right", "arrow-open-up", "arrow-right", "arrow-up", "assignment", "audio", "bank", "blueprint-lock", "blueprint", "bold", "bookmark", "box", "bullet-list", "calendar-add", "calendar-clock", "calendar-day", "calendar-days", "calendar-month", "calendar-reserved", "chat", "check-dark", "check-mark", "check-plus", "check", "clear-text-formatting", "clock", "cloud-download", "cloud-lock", "collapse", "collection-save", "collection", "commons", "complete", "compose", "copy-course", "copy", "courses", "dashboard", "deactivate-user", "discussion-check", "discussion-new", "discussion-reply-2", "discussion-reply-dark", "discussion-reply", "discussion-search", "discussion-x", "discussion", "document", "download", "drag-handle", "drop-down", "edit", "educators", "email", "empty", "end", "equation", "equella", "essay", "expand-items", "expand-left", "expand-right", "expand", "export-content", "export", "external-link", "eye", "facebook-boxed", "facebook", "fast-forward", "feedback", "file-locked", "files-copyright", "files-creative-commons", "files-fair-use", "files-obtained-permission", "files-public-domain", "filmstrip", "flag", "folder-locked", "folder", "forward", "github", "gradebook-export", "gradebook-import", "gradebook", "group-dark-new", "group-new", "group", "hamburger", "heart", "highlighter", "home", "hour-glass", "image", "import-content", "import", "inbox", "indent-2", "indent", "info", "instructure", "integrations", "invitation", "italic", "keyboard-shortcuts", "launch", "life-preserver", "like", "link", "linkedin", "lock", "lti", "mark-as-read", "marker", "masquerade", "mastery-paths", "materials-required-light", "materials-required", "mature-light", "mature", "media", "message", "mini-arrow-down", "mini-arrow-left", "mini-arrow-right", "mini-arrow-up", "minimize", "module", "more", "move-down-bottom", "move-down", "move-left", "move-right", "move-up-top", "move-up", "ms-excel", "ms-ppt", "ms-word", "muted", "next-unread", "not-graded", "note-dark", "note-light", "note", "numbered-list", "off", "open-folder", "outcomes", "outdent", "outdent2", "page-down", "page-up", "paint", "paperclip", "partial", "pause", "pdf", "peer-graded", "peer-review", "pin", "pinterest", "play", "plus", "post-to-sis", "prerequisite", "printer", "publish", "question", "quiz-stats-avg", "quiz-stats-cronbachs-alpha", "quiz-stats-deviation", "quiz-stats-high", "quiz-stats-low", "quiz-stats-time", "quiz", "refresh", "remove-bookmark", "remove-from-collection", "remove-link", "replied", "reply-2", "reply-all-2", "reply", "reset", "rewind", "rss-add", "rss", "rubric-dark", "rubric", "save", "search-address-book", "search", "settings-2", "settings", "shape-oval", "shape-polygon", "shape-rectangle", "sis-imported", "sis-not-synced", "sis-synced", "skype", "speed-grader", "standards", "star-light", "star", "stats", "stop", "strikethrough", "student-view", "syllabus", "table", "tag", "target", "text-background-color", "text-centered", "text-color", "text-left", "text-right", "text-subscript", "text-superscript", "text", "textarea", "timer", "toggle-left", "toggle-right", "trash", "trouble", "twitter-boxed", "twitter", "underline", "unlock", "unmuted", "unpublish", "unpublished", "updown", "upload", "user-add", "user", "video", "warning", "windows", "wordpress", "x", "zipped", "zoom-in", "zoom-out"],
   "formats": [{
     "name": "SVG",
     "demos": [{
@@ -7,31 +7,16 @@
       "name": "Large"
     }]
   }, {
-    "name": "SVG Sprite",
-    "demos": [{
-      "path": "demos/sprites/Line.html",
-      "name": "Line"
-    }, {
-      "path": "demos/sprites/Solid.html",
-      "name": "Solid"
-    }]
-  }, {
     "name": "Font",
     "demos": [{
-      "path": "demos/fonts/InstructureIcons-Line.html",
-      "name": "InstructureIcons-Line"
-    }, {
-      "path": "demos/fonts/InstructureIcons-Solid.html",
-      "name": "InstructureIcons-Solid"
+      "path": "demos/fonts/InstructureIcons.html",
+      "name": "InstructureIcons"
     }]
   }, {
     "name": "React",
     "demos": [{
-      "path": "demos/react/Line.html",
-      "name": "Line"
-    }, {
-      "path": "demos/react/Solid.html",
-      "name": "Solid"
+      "path": "demos/react/Icons.html",
+      "name": "Icons"
     }]
   }]
 }

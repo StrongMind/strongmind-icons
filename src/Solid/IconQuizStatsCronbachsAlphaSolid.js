@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import SVGIcon from '../SVGIcon'
 
-export default class IconNameSolid extends Component {
+export default class IconQuizStatsCronbachsAlphaSolid extends Component {
   render () {
     return (
       <SVGIcon
         {...this.props}
-        name="IconNameSolid"
+        name="IconQuizStatsCronbachsAlphaSolid"
         viewBox="0 0 1920 1920"
       >
         <svg version="1.1" viewBox="0 0 1920 1920">

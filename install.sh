@@ -41,7 +41,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 echo "-- install node"
-nvm install && nvm use
+source ~/.bash_profile && nvm install && nvm use
 
 echo "-- install dependencies...";
 npm install

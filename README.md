@@ -83,7 +83,7 @@ If you ran `npm start`, you're already running the web app. Just visit [localhos
 
 ### Release Process
 
-1. To update the version number, run `npm run bump-patch` OR `npm run bump-minor` OR `npm run bump-major` depending on what type of release you'd like to do.
+1. To update the version number, run `npm run bump patch` OR `npm run bump minor` OR `npm run bump major` depending on what type of release you'd like to do.
 2. Merge the version bump commit to master.
 3. Run `npm run release` to publish the release to npm.
 4. Run `npm run deploy` to update the docs and examples on gh-pages.

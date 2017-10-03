@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import SVGIcon from '../SVGIcon'
 
+
+
 export default class IconDiscussionXLine extends Component {
   render () {
     return (

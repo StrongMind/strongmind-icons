@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import SVGIcon from '../SVGIcon'
 
+
+
 export default class IconKeyboardShortcutsSolid extends Component {
   render () {
     return (

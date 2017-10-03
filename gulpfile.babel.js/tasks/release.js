@@ -8,7 +8,7 @@ import tag from 'gulp-tag-version';
 import git from 'gulp-git'
 
 gulp.task('push-tags', function () {
-  git.push('gerrit:instructure-icons', 'master', { args: '--tags' })
+  git.push('strongmind:strongmind-icons', 'master', { args: '--tags' })
 });
 
 gulp.task('copy-pkg', function () {

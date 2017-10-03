@@ -1,6 +1,6 @@
 {
   "name": "strongmind-icons",
-  "version": "2.0.1",
+  "version": "2.0.0",
   "description": "Icon set for Strongmind Canvas Implementation. Forked from https://github.com/instructure/instructure-icons.git",
   "scripts": {
     "start": "cross-env NODE_ENV=development gulp",

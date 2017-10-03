@@ -10,6 +10,6 @@ gulp.task('pre-deploy', function (cb) {
 gulp.task('deploy', ['pre-deploy'], function () {
   return gulp.src(config.destination + '**/*')
     .pipe(pages({
-      remoteUrl: 'git@github.com:instructure/instructure-icons.git'
+      remoteUrl: 'git@github.com:strongmind/instructure-icons.git'
     }))
 });

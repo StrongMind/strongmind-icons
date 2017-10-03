@@ -1,7 +1,7 @@
 {
-  "name": "instructure-icons",
-  "version": "4.3.1",
-  "description": "Icon set for Instructure products",
+  "name": "strongmind-icons",
+  "version": "0.0.4",
+  "description": "Icon set for Strongmind Canvas Implementation. Forked from https://github.com/instructure/instructure-icons.git",
   "scripts": {
     "start": "cross-env NODE_ENV=development gulp",
     "test": "cross-env NODE_ENV=test eslint src && mocha --compilers js:babel-core/register -- src/**/*.test.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/instructure/instructure-icons.git"
+    "url": "https://github.com/strongmind/instructure-icons.git"
   },
   "author": "Instructure, Inc. Engineering and Product Design",
   "license": "MIT",
